@@ -37,6 +37,14 @@ proyecto/
 | [docs/signal-spec.md](docs/signal-spec.md) | Especificación de señales (implementada) |
 | [docs/backtest.md](docs/backtest.md) | Resultados del backtest |
 | [docs/fcm.md](docs/fcm.md) | Notificaciones push (FCM): configuración y prueba |
+| [docs/release.md](docs/release.md) | Entrega: APK firmada, instalación y actualizaciones |
+
+## Instalación (APK)
+
+Descargá el APK firmado desde
+[GitHub Releases](https://github.com/fedex888/granos/releases/latest/download/app-release.apk)
+y permití la instalación de orígenes desconocidos. Requiere Android 8.0+.
+Detalle en [docs/release.md](docs/release.md).
 | [docs/disclaimer.md](docs/disclaimer.md) | Texto legal y atribución de fuentes |
 | [docs/decisiones.md](docs/decisiones.md) | Registro de decisiones |
 

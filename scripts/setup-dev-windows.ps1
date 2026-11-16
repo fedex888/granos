@@ -82,20 +82,20 @@ if (-not (Test-Admin)) {
 # ---------------------------------------------------------------------------
 # 1. JDK 17
 # ---------------------------------------------------------------------------
-Write-Step "JDK 17 (Eclipse Temurin)"
+Write-Step "JDK 21 (Eclipse Temurin)"
 $jdkRoot = "C:\Program Files\Eclipse Adoptium"
-$jdk17 = Get-ChildItem $jdkRoot -Directory -ErrorAction SilentlyContinue |
-    Where-Object { $_.Name -like "jdk-17*" } | Select-Object -First 1
-if (-not $jdk17) {
-    Install-WingetPackage "EclipseAdoptium.Temurin.17.JDK"
-    $jdk17 = Get-ChildItem $jdkRoot -Directory | Where-Object { $_.Name -like "jdk-17*" } |
+$jdk = Get-ChildItem $jdkRoot -Directory -ErrorAction SilentlyContinue |
+    Where-Object { $_.Name -like "jdk-21*" } | Select-Object -First 1
+if (-not $jdk) {
+    Install-WingetPackage "EclipseAdoptium.Temurin.21.JDK"
+    $jdk = Get-ChildItem $jdkRoot -Directory | Where-Object { $_.Name -like "jdk-21*" } |
         Select-Object -First 1
 }
-if (-not $jdk17) { throw "No se encontró el JDK 17 luego de instalar." }
-$env:JAVA_HOME = $jdk17.FullName
-[Environment]::SetEnvironmentVariable("JAVA_HOME", $jdk17.FullName, "Machine")
-Add-MachinePath "$($jdk17.FullName)\bin"
-Write-Host "JAVA_HOME = $($jdk17.FullName)"
+if (-not $jdk) { throw "No se encontró el JDK 21 luego de instalar." }
+$env:JAVA_HOME = $jdk.FullName
+[Environment]::SetEnvironmentVariable("JAVA_HOME", $jdk.FullName, "Machine")
+Add-MachinePath "$($jdk.FullName)\bin"
+Write-Host "JAVA_HOME = $($jdk.FullName)"
 
 # ---------------------------------------------------------------------------
 # 2. Android Studio

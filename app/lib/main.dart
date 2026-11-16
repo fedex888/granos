@@ -13,18 +13,19 @@ Future<void> main() async {
   final controller = SettingsController(prefs);
   final router = buildRouter((prefs.getBool('onboarded') ?? false) ? '/' : '/onboarding');
 
-  // FCM: si falla la inicialización (por ejemplo, sin google-services.json en
-  // desarrollo), la app igual arranca.
-  try {
-    await PushService(router).init();
-  } catch (e) {
-    debugPrint('Push init failed: $e');
-  }
-
   runApp(
     ProviderScope(
       overrides: [settingsProvider.overrideWith((ref) => controller)],
       child: App(router: router),
     ),
   );
+
+  // FCM después del primer frame: no bloquea el arranque de la UI.
+  WidgetsBinding.instance.addPostFrameCallback((_) async {
+    try {
+      await PushService(router).init();
+    } catch (e) {
+      debugPrint('Push init failed: $e');
+    }
+  });
 }

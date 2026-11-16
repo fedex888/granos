@@ -14,6 +14,7 @@ class HomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final settings = ref.watch(settingsProvider);
     final latest = ref.watch(latestProvider);
+    final status = ref.watch(statusProvider).asData?.value;
 
     return Scaffold(
       appBar: AppBar(
@@ -32,14 +33,15 @@ class HomeScreen extends ConsumerWidget {
         ],
       ),
       body: latest.when(
-        data: (data) => _body(context, ref, data, settings.mode),
+        data: (data) => _body(context, ref, data, settings.mode, status),
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (e, _) => _error(context, ref),
       ),
     );
   }
 
-  Widget _body(BuildContext context, WidgetRef ref, LatestData data, String mode) {
+  Widget _body(BuildContext context, WidgetRef ref, LatestData data, String mode,
+      Status? status) {
     final products = selectedProducts(ref, data);
     final theme = Theme.of(context);
 
@@ -73,6 +75,29 @@ class HomeScreen extends ConsumerWidget {
               ],
             ),
           ),
+          if (status != null && _isStale(status.lastRunAt))
+            Container(
+              margin: const EdgeInsets.fromLTRB(12, 4, 12, 4),
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Colors.amber.shade100,
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.warning_amber_rounded, color: Colors.orange),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      'Datos desactualizados al '
+                      '${formatDate(status.lastRunAt!.substring(0, 10))}. '
+                      'El pipeline no actualizó en los últimos 3 días.',
+                      style: const TextStyle(fontSize: 15),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           if (products.isEmpty)
             Padding(
               padding: const EdgeInsets.all(32),
@@ -87,6 +112,13 @@ class HomeScreen extends ConsumerWidget {
         ],
       ),
     );
+  }
+
+  bool _isStale(String? iso) {
+    if (iso == null) return false;
+    final d = DateTime.tryParse(iso);
+    if (d == null) return false;
+    return DateTime.now().difference(d).inDays > 3;
   }
 
   Widget _error(BuildContext context, WidgetRef ref) {
