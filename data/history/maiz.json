@@ -1,0 +1,3751 @@
+{
+  "schema_version": 1,
+  "product": "maiz",
+  "unit": "USD/t",
+  "points": [
+    {
+      "date": "2024-11-19",
+      "price_ars": 185000.0,
+      "price_usd": 188.3,
+      "fx_usd_ars": 982.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-20",
+      "price_ars": 185000.0,
+      "price_usd": 188.2,
+      "fx_usd_ars": 983.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-21",
+      "price_ars": 185000.0,
+      "price_usd": 187.91,
+      "fx_usd_ars": 984.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-22",
+      "price_ars": 184000.0,
+      "price_usd": 186.52,
+      "fx_usd_ars": 986.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-25",
+      "price_ars": 182500.0,
+      "price_usd": 184.9,
+      "fx_usd_ars": 987.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-26",
+      "price_ars": 182500.0,
+      "price_usd": 184.81,
+      "fx_usd_ars": 987.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-27",
+      "price_ars": 182800.0,
+      "price_usd": 185.02,
+      "fx_usd_ars": 988.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-28",
+      "price_ars": 182000.0,
+      "price_usd": 184.12,
+      "fx_usd_ars": 988.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-11-29",
+      "price_ars": 182000.0,
+      "price_usd": 183.65,
+      "fx_usd_ars": 991.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-02",
+      "price_ars": 180000.0,
+      "price_usd": 181.45,
+      "fx_usd_ars": 992.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-03",
+      "price_ars": 182800.0,
+      "price_usd": 184.18,
+      "fx_usd_ars": 992.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-04",
+      "price_ars": 183000.0,
+      "price_usd": 184.38,
+      "fx_usd_ars": 992.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-05",
+      "price_ars": 183000.0,
+      "price_usd": 184.29,
+      "fx_usd_ars": 993.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-06",
+      "price_ars": 183000.0,
+      "price_usd": 183.92,
+      "fx_usd_ars": 995.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-09",
+      "price_ars": 180500.0,
+      "price_usd": 181.22,
+      "fx_usd_ars": 996.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-10",
+      "price_ars": 180500.0,
+      "price_usd": 181.13,
+      "fx_usd_ars": 996.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-13",
+      "price_ars": 180000.0,
+      "price_usd": 180.0,
+      "fx_usd_ars": 1000.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-16",
+      "price_ars": 180000.0,
+      "price_usd": 179.64,
+      "fx_usd_ars": 1002.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-17",
+      "price_ars": 180500.0,
+      "price_usd": 180.05,
+      "fx_usd_ars": 1002.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-18",
+      "price_ars": 184800.0,
+      "price_usd": 184.34,
+      "fx_usd_ars": 1002.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-19",
+      "price_ars": 183500.0,
+      "price_usd": 183.04,
+      "fx_usd_ars": 1002.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-20",
+      "price_ars": 187000.0,
+      "price_usd": 186.16,
+      "fx_usd_ars": 1004.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-23",
+      "price_ars": 187000.0,
+      "price_usd": 185.52,
+      "fx_usd_ars": 1008.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-26",
+      "price_ars": 190000.0,
+      "price_usd": 188.31,
+      "fx_usd_ars": 1009.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-27",
+      "price_ars": 190000.0,
+      "price_usd": 187.93,
+      "fx_usd_ars": 1011.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2024-12-30",
+      "price_ars": 190000.0,
+      "price_usd": 187.65,
+      "fx_usd_ars": 1012.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-02",
+      "price_ars": 190000.0,
+      "price_usd": 187.65,
+      "fx_usd_ars": 1012.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-03",
+      "price_ars": 190000.0,
+      "price_usd": 187.19,
+      "fx_usd_ars": 1015.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-06",
+      "price_ars": 191900.0,
+      "price_usd": 189.06,
+      "fx_usd_ars": 1015.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-07",
+      "price_ars": 193800.0,
+      "price_usd": 190.84,
+      "fx_usd_ars": 1015.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-08",
+      "price_ars": 195000.0,
+      "price_usd": 191.93,
+      "fx_usd_ars": 1016.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-09",
+      "price_ars": 198000.0,
+      "price_usd": 194.69,
+      "fx_usd_ars": 1017.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-10",
+      "price_ars": 200000.0,
+      "price_usd": 196.27,
+      "fx_usd_ars": 1019.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-13",
+      "price_ars": 205000.0,
+      "price_usd": 201.08,
+      "fx_usd_ars": 1019.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-14",
+      "price_ars": 205000.0,
+      "price_usd": 200.88,
+      "fx_usd_ars": 1020.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-15",
+      "price_ars": 206000.0,
+      "price_usd": 201.66,
+      "fx_usd_ars": 1021.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-16",
+      "price_ars": 205000.0,
+      "price_usd": 200.59,
+      "fx_usd_ars": 1022.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-17",
+      "price_ars": 209000.0,
+      "price_usd": 204.2,
+      "fx_usd_ars": 1023.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-20",
+      "price_ars": 206500.0,
+      "price_usd": 201.27,
+      "fx_usd_ars": 1026.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-21",
+      "price_ars": 209300.0,
+      "price_usd": 203.9,
+      "fx_usd_ars": 1026.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-22",
+      "price_ars": 211500.0,
+      "price_usd": 205.84,
+      "fx_usd_ars": 1027.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-23",
+      "price_ars": 213000.0,
+      "price_usd": 207.2,
+      "fx_usd_ars": 1028.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-28",
+      "price_ars": 215000.0,
+      "price_usd": 208.64,
+      "fx_usd_ars": 1030.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-29",
+      "price_ars": 221500.0,
+      "price_usd": 214.74,
+      "fx_usd_ars": 1031.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-30",
+      "price_ars": 224000.0,
+      "price_usd": 217.05,
+      "fx_usd_ars": 1032.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-01-31",
+      "price_ars": 223000.0,
+      "price_usd": 215.77,
+      "fx_usd_ars": 1033.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-03",
+      "price_ars": 223000.0,
+      "price_usd": 215.62,
+      "fx_usd_ars": 1034.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-04",
+      "price_ars": 225000.0,
+      "price_usd": 217.5,
+      "fx_usd_ars": 1034.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-05",
+      "price_ars": 224000.0,
+      "price_usd": 216.53,
+      "fx_usd_ars": 1034.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-06",
+      "price_ars": 224000.0,
+      "price_usd": 216.48,
+      "fx_usd_ars": 1034.75,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-07",
+      "price_ars": 220000.0,
+      "price_usd": 212.41,
+      "fx_usd_ars": 1035.75,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-10",
+      "price_ars": 220000.0,
+      "price_usd": 212.36,
+      "fx_usd_ars": 1036.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-11",
+      "price_ars": 220000.0,
+      "price_usd": 212.36,
+      "fx_usd_ars": 1036.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-12",
+      "price_ars": 219000.0,
+      "price_usd": 211.34,
+      "fx_usd_ars": 1036.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-13",
+      "price_ars": 218000.0,
+      "price_usd": 210.17,
+      "fx_usd_ars": 1037.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-14",
+      "price_ars": 217000.0,
+      "price_usd": 209.06,
+      "fx_usd_ars": 1038.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-17",
+      "price_ars": 215000.0,
+      "price_usd": 206.98,
+      "fx_usd_ars": 1038.75,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-18",
+      "price_ars": 216000.0,
+      "price_usd": 207.89,
+      "fx_usd_ars": 1039.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-19",
+      "price_ars": 217000.0,
+      "price_usd": 208.85,
+      "fx_usd_ars": 1039.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-20",
+      "price_ars": 218000.0,
+      "price_usd": 209.77,
+      "fx_usd_ars": 1039.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-21",
+      "price_ars": 215000.0,
+      "price_usd": 206.68,
+      "fx_usd_ars": 1040.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-24",
+      "price_ars": 212000.0,
+      "price_usd": 203.75,
+      "fx_usd_ars": 1040.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-25",
+      "price_ars": 211500.0,
+      "price_usd": 203.17,
+      "fx_usd_ars": 1041.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-26",
+      "price_ars": 214500.0,
+      "price_usd": 206.0,
+      "fx_usd_ars": 1041.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-27",
+      "price_ars": 214800.0,
+      "price_usd": 206.19,
+      "fx_usd_ars": 1041.75,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-02-28",
+      "price_ars": 214800.0,
+      "price_usd": 205.7,
+      "fx_usd_ars": 1044.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-05",
+      "price_ars": 208500.0,
+      "price_usd": 199.62,
+      "fx_usd_ars": 1044.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-06",
+      "price_ars": 212000.0,
+      "price_usd": 202.97,
+      "fx_usd_ars": 1044.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-07",
+      "price_ars": 210000.0,
+      "price_usd": 200.76,
+      "fx_usd_ars": 1046.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-10",
+      "price_ars": 207500.0,
+      "price_usd": 198.33,
+      "fx_usd_ars": 1046.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-11",
+      "price_ars": 208000.0,
+      "price_usd": 198.81,
+      "fx_usd_ars": 1046.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-12",
+      "price_ars": 206000.0,
+      "price_usd": 196.89,
+      "fx_usd_ars": 1046.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-13",
+      "price_ars": 207500.0,
+      "price_usd": 198.28,
+      "fx_usd_ars": 1046.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-14",
+      "price_ars": 207000.0,
+      "price_usd": 197.52,
+      "fx_usd_ars": 1048.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-17",
+      "price_ars": 206500.0,
+      "price_usd": 196.99,
+      "fx_usd_ars": 1048.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-18",
+      "price_ars": 207400.0,
+      "price_usd": 197.81,
+      "fx_usd_ars": 1048.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-19",
+      "price_ars": 208500.0,
+      "price_usd": 198.71,
+      "fx_usd_ars": 1049.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-20",
+      "price_ars": 210000.0,
+      "price_usd": 200.1,
+      "fx_usd_ars": 1049.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-21",
+      "price_ars": 210000.0,
+      "price_usd": 199.81,
+      "fx_usd_ars": 1051.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-25",
+      "price_ars": 209000.0,
+      "price_usd": 198.81,
+      "fx_usd_ars": 1051.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-26",
+      "price_ars": 210000.0,
+      "price_usd": 199.71,
+      "fx_usd_ars": 1051.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-27",
+      "price_ars": 209000.0,
+      "price_usd": 198.72,
+      "fx_usd_ars": 1051.75,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-28",
+      "price_ars": 208000.0,
+      "price_usd": 197.53,
+      "fx_usd_ars": 1053.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-03-31",
+      "price_ars": 210000.0,
+      "price_usd": 199.34,
+      "fx_usd_ars": 1053.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-01",
+      "price_ars": 210000.0,
+      "price_usd": 199.19,
+      "fx_usd_ars": 1054.25,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-03",
+      "price_ars": 213500.0,
+      "price_usd": 202.47,
+      "fx_usd_ars": 1054.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-04",
+      "price_ars": 214500.0,
+      "price_usd": 203.22,
+      "fx_usd_ars": 1055.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-07",
+      "price_ars": 215000.0,
+      "price_usd": 203.65,
+      "fx_usd_ars": 1055.75,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-08",
+      "price_ars": 218000.0,
+      "price_usd": 206.44,
+      "fx_usd_ars": 1056.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-09",
+      "price_ars": 222000.0,
+      "price_usd": 214.18,
+      "fx_usd_ars": 1036.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-10",
+      "price_ars": 224500.0,
+      "price_usd": 216.54,
+      "fx_usd_ars": 1036.75,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-11",
+      "price_ars": 225000.0,
+      "price_usd": 216.87,
+      "fx_usd_ars": 1037.5,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-14",
+      "price_ars": 230000.0,
+      "price_usd": 194.92,
+      "fx_usd_ars": 1180.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-15",
+      "price_ars": 237500.0,
+      "price_usd": 201.27,
+      "fx_usd_ars": 1180.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-16",
+      "price_ars": 232000.0,
+      "price_usd": 209.01,
+      "fx_usd_ars": 1110.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-21",
+      "price_ars": 216000.0,
+      "price_usd": 203.77,
+      "fx_usd_ars": 1060.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-22",
+      "price_ars": 220000.0,
+      "price_usd": 205.61,
+      "fx_usd_ars": 1070.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-23",
+      "price_ars": 227000.0,
+      "price_usd": 202.68,
+      "fx_usd_ars": 1120.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-24",
+      "price_ars": 231000.0,
+      "price_usd": 202.63,
+      "fx_usd_ars": 1140.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-25",
+      "price_ars": 233000.0,
+      "price_usd": 204.39,
+      "fx_usd_ars": 1140.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-28",
+      "price_ars": 231000.0,
+      "price_usd": 202.63,
+      "fx_usd_ars": 1140.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-29",
+      "price_ars": 228000.0,
+      "price_usd": 201.77,
+      "fx_usd_ars": 1130.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-04-30",
+      "price_ars": 228000.0,
+      "price_usd": 200.0,
+      "fx_usd_ars": 1140.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-05",
+      "price_ars": 221000.0,
+      "price_usd": 190.52,
+      "fx_usd_ars": 1160.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-06",
+      "price_ars": 223500.0,
+      "price_usd": 191.85,
+      "fx_usd_ars": 1165.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-07",
+      "price_ars": 210000.0,
+      "price_usd": 192.66,
+      "fx_usd_ars": 1090.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-08",
+      "price_ars": 204000.0,
+      "price_usd": 188.89,
+      "fx_usd_ars": 1080.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-09",
+      "price_ars": 207000.0,
+      "price_usd": 188.18,
+      "fx_usd_ars": 1100.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-12",
+      "price_ars": 207000.0,
+      "price_usd": 188.18,
+      "fx_usd_ars": 1100.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-13",
+      "price_ars": 206000.0,
+      "price_usd": 187.27,
+      "fx_usd_ars": 1100.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-14",
+      "price_ars": 208000.0,
+      "price_usd": 189.09,
+      "fx_usd_ars": 1100.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-15",
+      "price_ars": 211000.0,
+      "price_usd": 191.82,
+      "fx_usd_ars": 1100.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-16",
+      "price_ars": 213000.0,
+      "price_usd": 191.89,
+      "fx_usd_ars": 1110.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-19",
+      "price_ars": 210000.0,
+      "price_usd": 190.05,
+      "fx_usd_ars": 1105.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-20",
+      "price_ars": 212000.0,
+      "price_usd": 190.99,
+      "fx_usd_ars": 1110.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-21",
+      "price_ars": 213000.0,
+      "price_usd": 191.89,
+      "fx_usd_ars": 1110.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-22",
+      "price_ars": 210000.0,
+      "price_usd": 190.05,
+      "fx_usd_ars": 1105.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-23",
+      "price_ars": 206000.0,
+      "price_usd": 187.27,
+      "fx_usd_ars": 1100.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-26",
+      "price_ars": 207000.0,
+      "price_usd": 186.49,
+      "fx_usd_ars": 1110.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-27",
+      "price_ars": 210800.0,
+      "price_usd": 188.21,
+      "fx_usd_ars": 1120.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-28",
+      "price_ars": 210000.0,
+      "price_usd": 186.67,
+      "fx_usd_ars": 1125.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-29",
+      "price_ars": 209700.0,
+      "price_usd": 183.14,
+      "fx_usd_ars": 1145.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-05-30",
+      "price_ars": 209000.0,
+      "price_usd": 182.53,
+      "fx_usd_ars": 1145.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-02",
+      "price_ars": 205000.0,
+      "price_usd": 178.26,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-03",
+      "price_ars": 205200.0,
+      "price_usd": 178.43,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-04",
+      "price_ars": 205000.0,
+      "price_usd": 178.26,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-05",
+      "price_ars": 206500.0,
+      "price_usd": 178.79,
+      "fx_usd_ars": 1155.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-06",
+      "price_ars": 203700.0,
+      "price_usd": 177.13,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-09",
+      "price_ars": 202900.0,
+      "price_usd": 176.43,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-10",
+      "price_ars": 202800.0,
+      "price_usd": 176.35,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-11",
+      "price_ars": 205000.0,
+      "price_usd": 178.26,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-12",
+      "price_ars": 205000.0,
+      "price_usd": 178.26,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-13",
+      "price_ars": 205500.0,
+      "price_usd": 178.7,
+      "fx_usd_ars": 1150.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-17",
+      "price_ars": 201000.0,
+      "price_usd": 177.09,
+      "fx_usd_ars": 1135.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-18",
+      "price_ars": 198000.0,
+      "price_usd": 178.38,
+      "fx_usd_ars": 1110.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-19",
+      "price_ars": 200000.0,
+      "price_usd": 176.99,
+      "fx_usd_ars": 1130.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-23",
+      "price_ars": 202000.0,
+      "price_usd": 177.97,
+      "fx_usd_ars": 1135.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-24",
+      "price_ars": 200000.0,
+      "price_usd": 174.67,
+      "fx_usd_ars": 1145.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-25",
+      "price_ars": 201000.0,
+      "price_usd": 174.03,
+      "fx_usd_ars": 1155.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-26",
+      "price_ars": 201800.0,
+      "price_usd": 174.72,
+      "fx_usd_ars": 1155.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-27",
+      "price_ars": 201500.0,
+      "price_usd": 174.46,
+      "fx_usd_ars": 1155.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-06-30",
+      "price_ars": 202100.0,
+      "price_usd": 173.48,
+      "fx_usd_ars": 1165.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-01",
+      "price_ars": 203000.0,
+      "price_usd": 171.31,
+      "fx_usd_ars": 1185.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-02",
+      "price_ars": 204000.0,
+      "price_usd": 170.71,
+      "fx_usd_ars": 1195.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-03",
+      "price_ars": 208700.0,
+      "price_usd": 174.64,
+      "fx_usd_ars": 1195.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-04",
+      "price_ars": 206000.0,
+      "price_usd": 170.25,
+      "fx_usd_ars": 1210.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-07",
+      "price_ars": 210000.0,
+      "price_usd": 170.73,
+      "fx_usd_ars": 1230.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-08",
+      "price_ars": 208500.0,
+      "price_usd": 170.2,
+      "fx_usd_ars": 1225.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-10",
+      "price_ars": 211820.0,
+      "price_usd": 172.91,
+      "fx_usd_ars": 1225.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-11",
+      "price_ars": 213000.0,
+      "price_usd": 173.88,
+      "fx_usd_ars": 1225.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-14",
+      "price_ars": 215900.0,
+      "price_usd": 173.41,
+      "fx_usd_ars": 1245.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-15",
+      "price_ars": 218000.0,
+      "price_usd": 177.24,
+      "fx_usd_ars": 1230.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-16",
+      "price_ars": 219900.0,
+      "price_usd": 179.51,
+      "fx_usd_ars": 1225.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-17",
+      "price_ars": 221000.0,
+      "price_usd": 178.23,
+      "fx_usd_ars": 1240.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-18",
+      "price_ars": 222000.0,
+      "price_usd": 177.6,
+      "fx_usd_ars": 1250.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-21",
+      "price_ars": 218000.0,
+      "price_usd": 174.4,
+      "fx_usd_ars": 1250.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-22",
+      "price_ars": 216000.0,
+      "price_usd": 176.33,
+      "fx_usd_ars": 1225.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-23",
+      "price_ars": 222000.0,
+      "price_usd": 181.22,
+      "fx_usd_ars": 1225.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-24",
+      "price_ars": 226100.0,
+      "price_usd": 183.08,
+      "fx_usd_ars": 1235.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-28",
+      "price_ars": 227600.0,
+      "price_usd": 181.35,
+      "fx_usd_ars": 1255.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-07-31",
+      "price_ars": 244350.0,
+      "price_usd": 183.72,
+      "fx_usd_ars": 1330.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-01",
+      "price_ars": 241200.0,
+      "price_usd": 182.04,
+      "fx_usd_ars": 1325.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-04",
+      "price_ars": 241100.0,
+      "price_usd": 182.65,
+      "fx_usd_ars": 1320.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-05",
+      "price_ars": 237500.0,
+      "price_usd": 182.69,
+      "fx_usd_ars": 1300.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-06",
+      "price_ars": 232800.0,
+      "price_usd": 179.77,
+      "fx_usd_ars": 1295.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-07",
+      "price_ars": 231800.0,
+      "price_usd": 179.69,
+      "fx_usd_ars": 1290.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-08",
+      "price_ars": 233100.0,
+      "price_usd": 181.4,
+      "fx_usd_ars": 1285.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-11",
+      "price_ars": 229770.0,
+      "price_usd": 177.43,
+      "fx_usd_ars": 1295.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-12",
+      "price_ars": 227000.0,
+      "price_usd": 175.97,
+      "fx_usd_ars": 1290.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-13",
+      "price_ars": 226900.0,
+      "price_usd": 176.58,
+      "fx_usd_ars": 1285.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-14",
+      "price_ars": 224600.0,
+      "price_usd": 176.85,
+      "fx_usd_ars": 1270.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-18",
+      "price_ars": 227000.0,
+      "price_usd": 178.04,
+      "fx_usd_ars": 1275.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-19",
+      "price_ars": 225300.0,
+      "price_usd": 177.4,
+      "fx_usd_ars": 1270.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-20",
+      "price_ars": 226500.0,
+      "price_usd": 177.65,
+      "fx_usd_ars": 1275.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-21",
+      "price_ars": 229200.0,
+      "price_usd": 178.37,
+      "fx_usd_ars": 1285.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-22",
+      "price_ars": 230500.0,
+      "price_usd": 177.99,
+      "fx_usd_ars": 1295.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-25",
+      "price_ars": 237450.0,
+      "price_usd": 178.53,
+      "fx_usd_ars": 1330.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-26",
+      "price_ars": 235800.0,
+      "price_usd": 177.29,
+      "fx_usd_ars": 1330.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-27",
+      "price_ars": 230500.0,
+      "price_usd": 174.62,
+      "fx_usd_ars": 1320.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-28",
+      "price_ars": 227700.0,
+      "price_usd": 174.48,
+      "fx_usd_ars": 1305.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-08-29",
+      "price_ars": 233275.0,
+      "price_usd": 176.72,
+      "fx_usd_ars": 1320.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-01",
+      "price_ars": 240000.0,
+      "price_usd": 178.44,
+      "fx_usd_ars": 1345.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-02",
+      "price_ars": 237000.0,
+      "price_usd": 177.53,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-03",
+      "price_ars": 237000.0,
+      "price_usd": 177.53,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-04",
+      "price_ars": 238000.0,
+      "price_usd": 178.28,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-05",
+      "price_ars": 242300.0,
+      "price_usd": 180.82,
+      "fx_usd_ars": 1340.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-09",
+      "price_ars": 248000.0,
+      "price_usd": 180.36,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-10",
+      "price_ars": 249000.0,
+      "price_usd": 179.78,
+      "fx_usd_ars": 1385.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-11",
+      "price_ars": 250500.0,
+      "price_usd": 179.57,
+      "fx_usd_ars": 1395.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-12",
+      "price_ars": 254900.0,
+      "price_usd": 180.14,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-15",
+      "price_ars": 257500.0,
+      "price_usd": 180.7,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-16",
+      "price_ars": 263000.0,
+      "price_usd": 183.92,
+      "fx_usd_ars": 1430.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-17",
+      "price_ars": 263800.0,
+      "price_usd": 183.83,
+      "fx_usd_ars": 1435.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-18",
+      "price_ars": 264000.0,
+      "price_usd": 182.7,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-19",
+      "price_ars": 263900.0,
+      "price_usd": 180.14,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-22",
+      "price_ars": 258800.0,
+      "price_usd": 187.54,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-23",
+      "price_ars": 258400.0,
+      "price_usd": 193.56,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-24",
+      "price_ars": 250000.0,
+      "price_usd": 190.84,
+      "fx_usd_ars": 1310.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-29",
+      "price_ars": 242000.0,
+      "price_usd": 181.95,
+      "fx_usd_ars": 1330.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-09-30",
+      "price_ars": 246780.0,
+      "price_usd": 182.8,
+      "fx_usd_ars": 1350.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-01",
+      "price_ars": 248800.0,
+      "price_usd": 177.71,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-02",
+      "price_ars": 250540.0,
+      "price_usd": 178.96,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-03",
+      "price_ars": 250000.0,
+      "price_usd": 178.57,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-06",
+      "price_ars": 251000.0,
+      "price_usd": 178.65,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-07",
+      "price_ars": 251500.0,
+      "price_usd": 179.0,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-08",
+      "price_ars": 251000.0,
+      "price_usd": 178.65,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-09",
+      "price_ars": 249700.0,
+      "price_usd": 178.36,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-13",
+      "price_ars": 237180.0,
+      "price_usd": 179.0,
+      "fx_usd_ars": 1325.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-14",
+      "price_ars": 239000.0,
+      "price_usd": 179.03,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-15",
+      "price_ars": 242700.0,
+      "price_usd": 179.11,
+      "fx_usd_ars": 1355.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-16",
+      "price_ars": 250500.0,
+      "price_usd": 181.52,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-17",
+      "price_ars": 259400.0,
+      "price_usd": 182.04,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-20",
+      "price_ars": 262200.0,
+      "price_usd": 181.45,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-21",
+      "price_ars": 265200.0,
+      "price_usd": 181.02,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-22",
+      "price_ars": 266000.0,
+      "price_usd": 181.57,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-23",
+      "price_ars": 264600.0,
+      "price_usd": 181.86,
+      "fx_usd_ars": 1455.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-24",
+      "price_ars": 266940.0,
+      "price_usd": 182.21,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-27",
+      "price_ars": 256700.0,
+      "price_usd": 182.06,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-28",
+      "price_ars": 265200.0,
+      "price_usd": 183.53,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-29",
+      "price_ars": 259714.0,
+      "price_usd": 184.19,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-30",
+      "price_ars": 259360.0,
+      "price_usd": 183.29,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-10-31",
+      "price_ars": 261000.0,
+      "price_usd": 183.16,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-03",
+      "price_ars": 268100.0,
+      "price_usd": 184.9,
+      "fx_usd_ars": 1450.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-04",
+      "price_ars": 262000.0,
+      "price_usd": 182.58,
+      "fx_usd_ars": 1435.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-05",
+      "price_ars": 265500.0,
+      "price_usd": 186.32,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-06",
+      "price_ars": 261200.0,
+      "price_usd": 183.3,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-07",
+      "price_ars": 257300.0,
+      "price_usd": 184.44,
+      "fx_usd_ars": 1395.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-10",
+      "price_ars": 257300.0,
+      "price_usd": 184.44,
+      "fx_usd_ars": 1395.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-11",
+      "price_ars": 254150.0,
+      "price_usd": 182.84,
+      "fx_usd_ars": 1390.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-12",
+      "price_ars": 258150.0,
+      "price_usd": 186.39,
+      "fx_usd_ars": 1385.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-13",
+      "price_ars": 258500.0,
+      "price_usd": 187.32,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-14",
+      "price_ars": 258000.0,
+      "price_usd": 187.64,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-17",
+      "price_ars": 250800.0,
+      "price_usd": 183.74,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-18",
+      "price_ars": 257300.0,
+      "price_usd": 187.13,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-19",
+      "price_ars": 258500.0,
+      "price_usd": 187.32,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-20",
+      "price_ars": 261000.0,
+      "price_usd": 186.43,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-25",
+      "price_ars": 266100.0,
+      "price_usd": 187.39,
+      "fx_usd_ars": 1420.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-26",
+      "price_ars": 274400.0,
+      "price_usd": 192.56,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-27",
+      "price_ars": 273800.0,
+      "price_usd": 192.14,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-11-28",
+      "price_ars": 274075.0,
+      "price_usd": 192.33,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-01",
+      "price_ars": 271190.0,
+      "price_usd": 190.31,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-02",
+      "price_ars": 273000.0,
+      "price_usd": 190.91,
+      "fx_usd_ars": 1430.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-03",
+      "price_ars": 272900.0,
+      "price_usd": 190.84,
+      "fx_usd_ars": 1430.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-04",
+      "price_ars": 272650.0,
+      "price_usd": 192.01,
+      "fx_usd_ars": 1420.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-05",
+      "price_ars": 270940.0,
+      "price_usd": 192.16,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-09",
+      "price_ars": 275000.0,
+      "price_usd": 194.35,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-10",
+      "price_ars": 275000.0,
+      "price_usd": 195.04,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-11",
+      "price_ars": 275000.0,
+      "price_usd": 195.04,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-12",
+      "price_ars": 276500.0,
+      "price_usd": 195.41,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-15",
+      "price_ars": 275900.0,
+      "price_usd": 194.98,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-16",
+      "price_ars": 274000.0,
+      "price_usd": 191.61,
+      "fx_usd_ars": 1430.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-17",
+      "price_ars": 273980.0,
+      "price_usd": 192.27,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-18",
+      "price_ars": 275400.0,
+      "price_usd": 193.26,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-19",
+      "price_ars": 274000.0,
+      "price_usd": 192.28,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-22",
+      "price_ars": 274170.0,
+      "price_usd": 192.4,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-23",
+      "price_ars": 276864.0,
+      "price_usd": 194.29,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-26",
+      "price_ars": 281480.0,
+      "price_usd": 197.53,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-29",
+      "price_ars": 282360.0,
+      "price_usd": 198.15,
+      "fx_usd_ars": 1425.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2025-12-30",
+      "price_ars": 281970.0,
+      "price_usd": 197.18,
+      "fx_usd_ars": 1430.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-02",
+      "price_ars": 293000.0,
+      "price_usd": 202.77,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-05",
+      "price_ars": 292000.0,
+      "price_usd": 202.08,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-06",
+      "price_ars": 291700.0,
+      "price_usd": 202.57,
+      "fx_usd_ars": 1440.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-07",
+      "price_ars": 290200.0,
+      "price_usd": 202.23,
+      "fx_usd_ars": 1435.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-08",
+      "price_ars": 290500.0,
+      "price_usd": 202.44,
+      "fx_usd_ars": 1435.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-09",
+      "price_ars": 291200.0,
+      "price_usd": 202.22,
+      "fx_usd_ars": 1440.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-12",
+      "price_ars": 291700.0,
+      "price_usd": 202.57,
+      "fx_usd_ars": 1440.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-13",
+      "price_ars": 282000.0,
+      "price_usd": 196.52,
+      "fx_usd_ars": 1435.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-14",
+      "price_ars": 278700.0,
+      "price_usd": 194.9,
+      "fx_usd_ars": 1430.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-15",
+      "price_ars": 276400.0,
+      "price_usd": 194.65,
+      "fx_usd_ars": 1420.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-16",
+      "price_ars": 274300.0,
+      "price_usd": 195.23,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-19",
+      "price_ars": 270845.0,
+      "price_usd": 192.09,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-20",
+      "price_ars": 268000.0,
+      "price_usd": 190.07,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-21",
+      "price_ars": 267200.0,
+      "price_usd": 190.18,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-22",
+      "price_ars": 266400.0,
+      "price_usd": 190.29,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-23",
+      "price_ars": 268000.0,
+      "price_usd": 190.75,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-26",
+      "price_ars": 269300.0,
+      "price_usd": 190.99,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-27",
+      "price_ars": 271600.0,
+      "price_usd": 191.94,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-28",
+      "price_ars": 272745.0,
+      "price_usd": 192.75,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-29",
+      "price_ars": 272745.0,
+      "price_usd": 192.75,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-01-30",
+      "price_ars": 273220.0,
+      "price_usd": 193.09,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-02",
+      "price_ars": 265000.0,
+      "price_usd": 187.28,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-03",
+      "price_ars": 261534.0,
+      "price_usd": 184.83,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-04",
+      "price_ars": 261500.0,
+      "price_usd": 184.81,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-05",
+      "price_ars": 260500.0,
+      "price_usd": 184.75,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-06",
+      "price_ars": 259700.0,
+      "price_usd": 185.5,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-09",
+      "price_ars": 253260.0,
+      "price_usd": 182.2,
+      "fx_usd_ars": 1390.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-10",
+      "price_ars": 251460.0,
+      "price_usd": 182.88,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-11",
+      "price_ars": 250380.0,
+      "price_usd": 182.76,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-12",
+      "price_ars": 250000.0,
+      "price_usd": 183.15,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-13",
+      "price_ars": 252376.0,
+      "price_usd": 184.22,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-18",
+      "price_ars": 252400.0,
+      "price_usd": 184.23,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-19",
+      "price_ars": 251160.0,
+      "price_usd": 184.68,
+      "fx_usd_ars": 1360.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-20",
+      "price_ars": 251500.0,
+      "price_usd": 186.99,
+      "fx_usd_ars": 1345.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-23",
+      "price_ars": 250520.0,
+      "price_usd": 186.96,
+      "fx_usd_ars": 1340.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-24",
+      "price_ars": 250300.0,
+      "price_usd": 185.41,
+      "fx_usd_ars": 1350.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-25",
+      "price_ars": 247500.0,
+      "price_usd": 181.32,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-26",
+      "price_ars": 244825.0,
+      "price_usd": 178.05,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-02-27",
+      "price_ars": 242900.0,
+      "price_usd": 177.3,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-02",
+      "price_ars": 236300.0,
+      "price_usd": 173.11,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-03",
+      "price_ars": 242000.0,
+      "price_usd": 174.73,
+      "fx_usd_ars": 1385.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-04",
+      "price_ars": 239350.0,
+      "price_usd": 174.71,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-05",
+      "price_ars": 239000.0,
+      "price_usd": 173.82,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-06",
+      "price_ars": 251000.0,
+      "price_usd": 181.23,
+      "fx_usd_ars": 1385.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-09",
+      "price_ars": 253260.0,
+      "price_usd": 182.86,
+      "fx_usd_ars": 1385.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-10",
+      "price_ars": 247600.0,
+      "price_usd": 180.73,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-11",
+      "price_ars": 250300.0,
+      "price_usd": 183.37,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-12",
+      "price_ars": 256320.0,
+      "price_usd": 187.78,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-13",
+      "price_ars": 251800.0,
+      "price_usd": 183.8,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-16",
+      "price_ars": 245000.0,
+      "price_usd": 179.49,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-17",
+      "price_ars": 242000.0,
+      "price_usd": 177.29,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-18",
+      "price_ars": 242500.0,
+      "price_usd": 177.66,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-19",
+      "price_ars": 243850.0,
+      "price_usd": 178.64,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-20",
+      "price_ars": 243150.0,
+      "price_usd": 178.79,
+      "fx_usd_ars": 1360.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-25",
+      "price_ars": 237500.0,
+      "price_usd": 175.93,
+      "fx_usd_ars": 1350.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-26",
+      "price_ars": 236000.0,
+      "price_usd": 176.12,
+      "fx_usd_ars": 1340.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-27",
+      "price_ars": 236250.0,
+      "price_usd": 174.35,
+      "fx_usd_ars": 1355.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-30",
+      "price_ars": 238215.0,
+      "price_usd": 173.88,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-03-31",
+      "price_ars": 240000.0,
+      "price_usd": 177.12,
+      "fx_usd_ars": 1355.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-01",
+      "price_ars": 246500.0,
+      "price_usd": 180.59,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-06",
+      "price_ars": 253000.0,
+      "price_usd": 185.35,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-07",
+      "price_ars": 253000.0,
+      "price_usd": 185.35,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-08",
+      "price_ars": 252300.0,
+      "price_usd": 185.51,
+      "fx_usd_ars": 1360.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-09",
+      "price_ars": 253820.0,
+      "price_usd": 187.32,
+      "fx_usd_ars": 1355.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-10",
+      "price_ars": 250400.0,
+      "price_usd": 186.17,
+      "fx_usd_ars": 1345.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-13",
+      "price_ars": 248825.0,
+      "price_usd": 186.39,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-14",
+      "price_ars": 251300.0,
+      "price_usd": 188.24,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-15",
+      "price_ars": 251500.0,
+      "price_usd": 188.39,
+      "fx_usd_ars": 1335.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-16",
+      "price_ars": 252500.0,
+      "price_usd": 189.85,
+      "fx_usd_ars": 1330.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-17",
+      "price_ars": 253480.0,
+      "price_usd": 189.16,
+      "fx_usd_ars": 1340.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-20",
+      "price_ars": 257184.0,
+      "price_usd": 190.51,
+      "fx_usd_ars": 1350.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-21",
+      "price_ars": 259640.0,
+      "price_usd": 192.33,
+      "fx_usd_ars": 1350.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-22",
+      "price_ars": 260110.0,
+      "price_usd": 192.67,
+      "fx_usd_ars": 1350.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-23",
+      "price_ars": 261400.0,
+      "price_usd": 191.5,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-24",
+      "price_ars": 260100.0,
+      "price_usd": 189.85,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-27",
+      "price_ars": 265400.0,
+      "price_usd": 190.94,
+      "fx_usd_ars": 1390.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-28",
+      "price_ars": 265145.0,
+      "price_usd": 192.13,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-29",
+      "price_ars": 262675.0,
+      "price_usd": 192.44,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-04-30",
+      "price_ars": 262500.0,
+      "price_usd": 192.31,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-04",
+      "price_ars": 264765.0,
+      "price_usd": 192.56,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-05",
+      "price_ars": 262960.0,
+      "price_usd": 192.64,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-06",
+      "price_ars": 262000.0,
+      "price_usd": 192.65,
+      "fx_usd_ars": 1360.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-07",
+      "price_ars": 262143.0,
+      "price_usd": 191.35,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-08",
+      "price_ars": 263215.0,
+      "price_usd": 192.13,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-11",
+      "price_ars": 262000.0,
+      "price_usd": 191.94,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-12",
+      "price_ars": 261250.0,
+      "price_usd": 192.8,
+      "fx_usd_ars": 1355.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-13",
+      "price_ars": 262770.0,
+      "price_usd": 193.93,
+      "fx_usd_ars": 1355.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-14",
+      "price_ars": 254300.0,
+      "price_usd": 186.3,
+      "fx_usd_ars": 1365.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-15",
+      "price_ars": 249500.0,
+      "price_usd": 182.12,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-18",
+      "price_ars": 256780.0,
+      "price_usd": 187.43,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-19",
+      "price_ars": 256965.0,
+      "price_usd": 187.57,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-20",
+      "price_ars": 256780.0,
+      "price_usd": 187.43,
+      "fx_usd_ars": 1370.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-21",
+      "price_ars": 253000.0,
+      "price_usd": 186.03,
+      "fx_usd_ars": 1360.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-22",
+      "price_ars": 254000.0,
+      "price_usd": 184.73,
+      "fx_usd_ars": 1375.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-26",
+      "price_ars": 254460.0,
+      "price_usd": 184.39,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-27",
+      "price_ars": 254735.0,
+      "price_usd": 184.59,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-28",
+      "price_ars": 254900.0,
+      "price_usd": 184.71,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-05-29",
+      "price_ars": 254620.0,
+      "price_usd": 184.51,
+      "fx_usd_ars": 1380.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-01",
+      "price_ars": 255760.0,
+      "price_usd": 183.34,
+      "fx_usd_ars": 1395.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-02",
+      "price_ars": 255240.0,
+      "price_usd": 182.31,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-03",
+      "price_ars": 257310.0,
+      "price_usd": 182.49,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-04",
+      "price_ars": 255500.0,
+      "price_usd": 181.85,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-05",
+      "price_ars": 254800.0,
+      "price_usd": 180.71,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-08",
+      "price_ars": 257400.0,
+      "price_usd": 181.91,
+      "fx_usd_ars": 1415.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-09",
+      "price_ars": 257050.0,
+      "price_usd": 182.3,
+      "fx_usd_ars": 1410.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-10",
+      "price_ars": 255600.0,
+      "price_usd": 181.92,
+      "fx_usd_ars": 1405.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-11",
+      "price_ars": 254500.0,
+      "price_usd": 181.79,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-12",
+      "price_ars": 254710.0,
+      "price_usd": 181.94,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-16",
+      "price_ars": 256950.0,
+      "price_usd": 183.54,
+      "fx_usd_ars": 1400.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-17",
+      "price_ars": 257850.0,
+      "price_usd": 182.88,
+      "fx_usd_ars": 1409.97,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-18",
+      "price_ars": 259560.0,
+      "price_usd": 182.79,
+      "fx_usd_ars": 1420.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-19",
+      "price_ars": 261360.0,
+      "price_usd": 182.51,
+      "fx_usd_ars": 1432.05,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-22",
+      "price_ars": 261450.0,
+      "price_usd": 182.64,
+      "fx_usd_ars": 1431.54,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-23",
+      "price_ars": 263250.0,
+      "price_usd": 182.81,
+      "fx_usd_ars": 1440.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-24",
+      "price_ars": 264000.0,
+      "price_usd": 182.7,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-25",
+      "price_ars": 264240.0,
+      "price_usd": 182.87,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-26",
+      "price_ars": 265700.0,
+      "price_usd": 183.88,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-29",
+      "price_ars": 264900.0,
+      "price_usd": 183.32,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-06-30",
+      "price_ars": 264400.0,
+      "price_usd": 182.34,
+      "fx_usd_ars": 1450.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-01",
+      "price_ars": 265660.0,
+      "price_usd": 181.96,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-02",
+      "price_ars": 264500.0,
+      "price_usd": 181.16,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-03",
+      "price_ars": 265000.0,
+      "price_usd": 181.51,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-06",
+      "price_ars": 268900.0,
+      "price_usd": 184.18,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-07",
+      "price_ars": 269900.0,
+      "price_usd": 184.23,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-08",
+      "price_ars": 267500.0,
+      "price_usd": 183.22,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-13",
+      "price_ars": 267500.0,
+      "price_usd": 183.22,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-14",
+      "price_ars": 264700.0,
+      "price_usd": 183.18,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-15",
+      "price_ars": 266700.0,
+      "price_usd": 184.57,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-16",
+      "price_ars": 267000.0,
+      "price_usd": 184.78,
+      "fx_usd_ars": 1445.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-17",
+      "price_ars": 271765.0,
+      "price_usd": 187.42,
+      "fx_usd_ars": 1450.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-20",
+      "price_ars": 272320.0,
+      "price_usd": 187.81,
+      "fx_usd_ars": 1450.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-21",
+      "price_ars": 274600.0,
+      "price_usd": 189.38,
+      "fx_usd_ars": 1450.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-22",
+      "price_ars": 280100.0,
+      "price_usd": 192.51,
+      "fx_usd_ars": 1455.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-23",
+      "price_ars": 281200.0,
+      "price_usd": 192.6,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-24",
+      "price_ars": 278260.0,
+      "price_usd": 189.29,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-27",
+      "price_ars": 278256.0,
+      "price_usd": 189.29,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-28",
+      "price_ars": 282500.0,
+      "price_usd": 192.18,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-29",
+      "price_ars": 281000.0,
+      "price_usd": 191.81,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-30",
+      "price_ars": 279600.0,
+      "price_usd": 191.51,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-07-31",
+      "price_ars": 277490.0,
+      "price_usd": 190.06,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-03",
+      "price_ars": 276400.0,
+      "price_usd": 188.67,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-04",
+      "price_ars": 275100.0,
+      "price_usd": 187.78,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-05",
+      "price_ars": 276600.0,
+      "price_usd": 188.16,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-06",
+      "price_ars": 278700.0,
+      "price_usd": 189.59,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-07",
+      "price_ars": 277800.0,
+      "price_usd": 188.98,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-10",
+      "price_ars": 267570.0,
+      "price_usd": 182.02,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-11",
+      "price_ars": 263700.0,
+      "price_usd": 180.0,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-12",
+      "price_ars": 266100.0,
+      "price_usd": 181.64,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-13",
+      "price_ars": 267050.0,
+      "price_usd": 182.29,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-14",
+      "price_ars": 269090.0,
+      "price_usd": 184.31,
+      "fx_usd_ars": 1460.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-18",
+      "price_ars": 274170.0,
+      "price_usd": 187.15,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-19",
+      "price_ars": 275280.0,
+      "price_usd": 187.9,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-20",
+      "price_ars": 272300.0,
+      "price_usd": 185.87,
+      "fx_usd_ars": 1465.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-21",
+      "price_ars": 266710.0,
+      "price_usd": 181.44,
+      "fx_usd_ars": 1470.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-24",
+      "price_ars": 270180.0,
+      "price_usd": 182.55,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-25",
+      "price_ars": 269000.0,
+      "price_usd": 181.76,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-26",
+      "price_ars": 270500.0,
+      "price_usd": 182.15,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-27",
+      "price_ars": 270500.0,
+      "price_usd": 182.15,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-28",
+      "price_ars": 271300.0,
+      "price_usd": 182.69,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-08-31",
+      "price_ars": 270700.0,
+      "price_usd": 182.91,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-01",
+      "price_ars": 282000.0,
+      "price_usd": 189.9,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-02",
+      "price_ars": 285380.0,
+      "price_usd": 192.18,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-03",
+      "price_ars": 285560.0,
+      "price_usd": 192.3,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-04",
+      "price_ars": 289000.0,
+      "price_usd": 195.27,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-07",
+      "price_ars": 293000.0,
+      "price_usd": 197.97,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-08",
+      "price_ars": 293100.0,
+      "price_usd": 198.04,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-09",
+      "price_ars": 293400.0,
+      "price_usd": 198.24,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-10",
+      "price_ars": 299000.0,
+      "price_usd": 201.35,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-11",
+      "price_ars": 299000.0,
+      "price_usd": 201.35,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-14",
+      "price_ars": 295200.0,
+      "price_usd": 199.46,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-15",
+      "price_ars": 295000.0,
+      "price_usd": 199.32,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-16",
+      "price_ars": 295000.0,
+      "price_usd": 199.32,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-17",
+      "price_ars": 294200.0,
+      "price_usd": 198.11,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-18",
+      "price_ars": 295100.0,
+      "price_usd": 198.72,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-21",
+      "price_ars": 299000.0,
+      "price_usd": 201.35,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-22",
+      "price_ars": 298500.0,
+      "price_usd": 201.01,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-23",
+      "price_ars": 295400.0,
+      "price_usd": 198.92,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-24",
+      "price_ars": 296000.0,
+      "price_usd": 199.33,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-25",
+      "price_ars": 297234.0,
+      "price_usd": 199.49,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-28",
+      "price_ars": 291750.0,
+      "price_usd": 195.15,
+      "fx_usd_ars": 1495.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-29",
+      "price_ars": 295800.0,
+      "price_usd": 197.86,
+      "fx_usd_ars": 1495.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-09-30",
+      "price_ars": 291000.0,
+      "price_usd": 194.65,
+      "fx_usd_ars": 1495.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-01",
+      "price_ars": 287900.0,
+      "price_usd": 193.22,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-02",
+      "price_ars": 287090.0,
+      "price_usd": 192.03,
+      "fx_usd_ars": 1495.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-05",
+      "price_ars": 287090.0,
+      "price_usd": 192.68,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-06",
+      "price_ars": 294000.0,
+      "price_usd": 197.32,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-07",
+      "price_ars": 294800.0,
+      "price_usd": 197.85,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-08",
+      "price_ars": 293500.0,
+      "price_usd": 196.98,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-09",
+      "price_ars": 292500.0,
+      "price_usd": 196.31,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-13",
+      "price_ars": 287500.0,
+      "price_usd": 193.6,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-14",
+      "price_ars": 286000.0,
+      "price_usd": 192.59,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-15",
+      "price_ars": 286500.0,
+      "price_usd": 192.93,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-16",
+      "price_ars": 285000.0,
+      "price_usd": 192.57,
+      "fx_usd_ars": 1480.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-19",
+      "price_ars": 281800.0,
+      "price_usd": 189.76,
+      "fx_usd_ars": 1485.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-20",
+      "price_ars": 279000.0,
+      "price_usd": 187.25,
+      "fx_usd_ars": 1490.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-21",
+      "price_ars": 277875.0,
+      "price_usd": 185.87,
+      "fx_usd_ars": 1495.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-22",
+      "price_ars": 278000.0,
+      "price_usd": 185.95,
+      "fx_usd_ars": 1495.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-23",
+      "price_ars": 278250.0,
+      "price_usd": 185.5,
+      "fx_usd_ars": 1500.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-26",
+      "price_ars": 281000.0,
+      "price_usd": 187.33,
+      "fx_usd_ars": 1500.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-27",
+      "price_ars": 280500.0,
+      "price_usd": 185.76,
+      "fx_usd_ars": 1510.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-28",
+      "price_ars": 277800.0,
+      "price_usd": 183.97,
+      "fx_usd_ars": 1510.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-10-29",
+      "price_ars": 275400.0,
+      "price_usd": 182.38,
+      "fx_usd_ars": 1510.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-11-02",
+      "price_ars": 275000.0,
+      "price_usd": 182.12,
+      "fx_usd_ars": 1510.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-11-03",
+      "price_ars": 272934.0,
+      "price_usd": 180.15,
+      "fx_usd_ars": 1515.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-11-04",
+      "price_ars": 275500.0,
+      "price_usd": 181.25,
+      "fx_usd_ars": 1520.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-11-05",
+      "price_ars": 275000.0,
+      "price_usd": 180.92,
+      "fx_usd_ars": 1520.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-11-10",
+      "price_ars": 274300.0,
+      "price_usd": 180.46,
+      "fx_usd_ars": 1520.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-11-11",
+      "price_ars": 275000.0,
+      "price_usd": 180.92,
+      "fx_usd_ars": 1520.0,
+      "quality": "operated",
+      "source": "BCR"
+    },
+    {
+      "date": "2026-11-12",
+      "price_ars": 275800.0,
+      "price_usd": 181.45,
+      "fx_usd_ars": 1520.0,
+      "quality": "operated",
+      "source": "BCR"
+    }
+  ]
+}

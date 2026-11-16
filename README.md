@@ -3,8 +3,8 @@
 App Android para detectar oportunidades de compra y venta de granos en Argentina,
 con precios de referencia de la Cámara Arbitral de Cereales de Rosario (BCR).
 
-**Estado actual: Fase 0 (preparación) cerrada.** Todavía no hay UI ni alertas:
-la app se construye recién después de cerrar la Fase 1 (pipeline y señales).
+**Estado actual: Fase 1 (pipeline y señales) implementada.** La UI se construye en
+Fase 2; las alertas push (FCM) en Fase 3.
 
 - Productos MVP: **maíz, soja, trigo pan y girasol**.
 - Señal en **USD/t**; visualización en **ARS/t** con cotización BNA.
@@ -33,8 +33,8 @@ proyecto/
 | [docs/data-sources.md](docs/data-sources.md) | Fuentes BCR/MAGyP/FX: endpoints, parseo y validación |
 | [docs/fase-0-validation.json](docs/fase-0-validation.json) | Reporte máquina de la validación de fuentes |
 | [docs/architecture.md](docs/architecture.md) | Arquitectura y decisiones técnicas |
-| [docs/signal-spec.md](docs/signal-spec.md) | Especificación de señales (se implementa en Fase 1) |
-| [docs/backtest.md](docs/backtest.md) | Plan de backtest (Fase 1) |
+| [docs/signal-spec.md](docs/signal-spec.md) | Especificación de señales (implementada) |
+| [docs/backtest.md](docs/backtest.md) | Resultados del backtest |
 | [docs/disclaimer.md](docs/disclaimer.md) | Texto legal y atribución de fuentes |
 | [docs/decisiones.md](docs/decisiones.md) | Registro de decisiones |
 
@@ -47,6 +47,18 @@ powershell -ExecutionPolicy Bypass -File scripts\setup-dev-windows.ps1
 
 Instala JDK 17, Android Studio, Android SDK, Flutter stable y Python 3.12 de forma
 idempotente. Ver [docs/fase-0-entorno.md](docs/fase-0-entorno.md).
+
+## Ejecutar el pipeline
+
+```powershell
+.\.venv\Scripts\python.exe -m pipeline.main            # escribe data/
+.\.venv\Scripts\python.exe -m pipeline.main --dry-run  # solo imprime
+.\.venv\Scripts\python.exe -m pipeline.src.backtest    # regenera docs/backtest.md
+.\.venv\Scripts\python.exe -m pytest -q                # tests
+```
+
+El workflow `.github/workflows/update-data.yml` lo corre 2 veces por día hábil y
+commitea `data/`.
 
 ## Validar las fuentes de datos
 

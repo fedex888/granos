@@ -73,11 +73,13 @@ Plantillas en plan §7.6, en castellano rioplatense y sin jerga.
 Para `buy`, retorno promedio a 30 días > 0 y hit rate > 50%. Si no se cumple,
 ajustar pesos o dejar solo la regla de nuevo mínimo.
 
-## Preguntas abiertas
+## Decisiones resueltas (Fase 0)
 
-1. **Girasol** (D10): 195 operados < 250. Definir si se aceptan estimados y si se
-   limita a `watch` antes de implementar `signals.py`.
-2. **Ventana con estimados**: si se incluyen, ¿cuentan para `low_2y`/`high_2y`?
-   Propuesta: sí para métricas, pero `quality` penaliza el score y bloquea alertas
-   `strong`.
-3. **`stale`**: confirmar definición exacta (5 días hábiles desde el último operado).
+1. **Girasol (D10):** serie `type=any`, `quality` por punto, métricas sobre la serie
+   completa, mínimo 250 sobre la serie completa, y **tope de señal `watch`**
+   (nunca `strong`/`buy`/`sell`, nunca push). Ver `docs/decisiones.md`.
+2. **Estimados en métricas:** cuentan para `low_2y`/`high_2y`/percentil/RSI/medias;
+   `quality` penaliza el score (`score_quality`: 100 operado fresco, 70 estimado,
+   0 stale) y bloquea las alertas accionables.
+3. **`stale`:** un punto es fresco solo si es **operado** y su fecha está a ≤ 5 días
+   hábiles del día de la corrida. Un dato estimado reciente no alcanza para alertar.

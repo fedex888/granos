@@ -14,7 +14,7 @@ Registro de decisiones tomadas durante la preparación. Las decisiones marcadas
 | D7 | 2026-11-15 | No mezclar fuentes FX dentro de una serie | Aceptada | Evita saltos artificiales; el TC BNA de BCR se guarda solo como control |
 | D8 | 2026-11-15 | Nodo de export BCR `987` configurable | Aceptada | No se puede extraer del HTML; si cambia, el pipeline debe fallar con error claro |
 | D9 | 2026-11-15 | `schema_version: 1` en todos los JSON | Aceptada | Requisito del plan |
-| D10 | 2026-11-15 | Girasol: incluir con `quality=estimated`; alertas solo si hay operado reciente | **Pendiente** | Solo 195 operados en 2 años (<250) y brecha máxima de 73 días; con la regla actual nunca alertaría |
+| D10 | 2026-11-16 | Girasol: serie `type=any` (operado+estimado), métricas sobre la serie completa, tope de señal `watch` | Aceptada | 195 operados < 250; los estimados de BCR son referencia válida para el gráfico, pero no sostienen señales accionables |
 | D11 | 2026-11-15 | Zona horaria `America/Argentina/Buenos_Aires` | Aceptada | Requisito del plan; `tzdata` incluido para Windows |
 | D12 | 2026-11-16 | Repositorio GitHub `fedex888/granos` (público, rama `main`) | Aceptada | Requerido para que la app lea `data/*.json` sin autenticación |
 | D13 | 2026-11-16 | Proyecto Firebase `granos-oportunidades` + app Android `com.fedex888.granos` | Aceptada | Proyecto y app creados; `google-services.json` descargado |
@@ -30,16 +30,24 @@ no se puede cambiar sin crear otra app.
 
 ### D10 — Política de girasol
 
-Opciones para Fase 1:
+Decisión final (aceptada):
 
-1. **Recomendada:** usar `type=any`, guardar `quality=estimated`, calcular métricas
-   con toda la serie y limitar girasol a señal `watch` como máximo. Nunca `strong`.
-2. Tratar girasol como informativo: mostrar precio y gráfico, sin score ni alertas.
-3. Exigir 195 operados como mínimo específico para girasol y alertar solo con
-   operado fresco (en la práctica, casi nunca).
+1. **Serie:** descargar girasol con `type=any` (incluye estimados) y guardar
+   `quality` (`operated` / `estimated`) por punto.
+2. **Métricas:** `low_2y`, `high_2y`, `avg_2y`, `percentile`, `zscore`, `rsi_14`,
+   `ma_50`, `ma_200` se calculan sobre la **serie completa** (operados + estimados),
+   porque los estimados de BCR son la referencia oficial para el gráfico.
+3. **Mínimo de observaciones:** 250 sobre la serie completa (girasol tiene 480 → OK).
+4. **Frescura:** un punto es "fresco" solo si es operado y tiene ≤ 5 días hábiles.
+   Con la brecha actual (último operado 2026-10-13), girasol queda `stale` para
+   alertas.
+5. **Tope de señal:** `max_signal = watch`. Girasol puede mostrar `watch` (contexto)
+   pero **nunca** `strong`, `buy` ni `sell`; por lo tanto nunca genera push.
+6. **Configurable** por producto en `config.py` (`max_signal`): si BCR publica más
+   operados en el futuro, se levanta el tope sin tocar código.
 
-La opción 1 mantiene el producto en la app sin prometer una señal que los datos no
-sostienen. Requiere que el score penalice `quality=estimated` (ya previsto: 70/100).
+Resultado: girasol se ve en la app con precio y gráfico reales, muestra un `watch`
+cuando corresponde, y no promete señales accionables que sus datos no sostienen.
 
 ### D12 / D13 — GitHub y Firebase (completados)
 
