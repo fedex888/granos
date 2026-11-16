@@ -139,9 +139,12 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                 ),
               ],
             ),
+            const SizedBox(height: 4),
+            Text('Podés dejarlo en 0 y ajustarlo después en Ajustes.',
+                style: theme.textTheme.bodySmall),
             const SizedBox(height: 16),
             Text(_disclaimer, style: theme.textTheme.bodySmall),
-            const SizedBox(height: 24),
+            const SizedBox(height: 16),
             ElevatedButton(
               onPressed: _finish,
               child: const Text('Comenzar'),

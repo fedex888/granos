@@ -77,13 +77,13 @@ class AlertsScreen extends ConsumerWidget {
   String _tier(String tier) {
     switch (tier) {
       case 'strong':
-        return 'Fuerte';
+        return 'Muy bueno';
       case 'buy':
         return 'Comprar';
       case 'sell':
         return 'Vender';
       case 'watch':
-        return 'Mirar';
+        return 'Atento';
       default:
         return tier;
     }

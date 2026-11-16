@@ -1,4 +1,4 @@
-# Entrega — versión 1.0.0
+# Entrega — versión 1.0.1
 
 ## APK
 
@@ -6,7 +6,7 @@
 - Package: `com.fedex888.granos`.
 - Firma: keystore propio (no versionado).
 - `minSdk 26` (Android 8.0+).
-- Release: <https://github.com/fedex888/granos/releases/tag/v1.0.0>
+- Release: <https://github.com/fedex888/granos/releases/tag/v1.0.1>
 
 Descarga directa:
 <https://github.com/fedex888/granos/releases/latest/download/app-release.apk>

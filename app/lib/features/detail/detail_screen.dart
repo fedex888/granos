@@ -3,6 +3,8 @@ import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/format.dart';
+import '../../core/labels.dart';
+import '../../core/theme.dart';
 import '../../data/models.dart';
 import '../../data/settings.dart';
 import '../../domain/providers.dart';
@@ -73,6 +75,18 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
                 '${product.quality == 'estimated' ? '  ·  estimado' : ''}',
                 style: theme.textTheme.bodyMedium,
               ),
+              const SizedBox(height: 6),
+              Text(
+                recommendation(
+                  settings.mode == 'buy' ? product.signalBuy : product.signalSell,
+                  settings.mode,
+                ),
+                style: theme.textTheme.titleMedium?.copyWith(
+                  color: signalColor(
+                    settings.mode == 'buy' ? product.signalBuy : product.signalSell,
+                  ),
+                ),
+              ),
             ],
           ),
         ),
@@ -127,14 +141,21 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
                 Text('¿Por qué?', style: theme.textTheme.titleMedium),
                 const SizedBox(height: 8),
                 Text(product.explanation ?? '', style: theme.textTheme.bodyLarge),
-                const SizedBox(height: 12),
-                _MetricRow(label: 'Percentil', value: product.percentile?.toStringAsFixed(0) ?? '—'),
-                _MetricRow(label: 'Arriba del mínimo', value: formatPercent(product.distanceFromLow)),
-                _MetricRow(label: 'Debajo del máximo', value: formatPercent(product.distanceFromHigh)),
-                _MetricRow(label: 'Z-score', value: product.zscore?.toStringAsFixed(2) ?? '—'),
-                _MetricRow(label: 'RSI (14)', value: product.rsi14?.toStringAsFixed(0) ?? '—'),
-                _MetricRow(label: 'Media 50d', value: formatUsd(product.ma50Usd)),
-                _MetricRow(label: 'Media 200d', value: formatUsd(product.ma200Usd)),
+                const SizedBox(height: 8),
+                ExpansionTile(
+                  tilePadding: EdgeInsets.zero,
+                  childrenPadding: EdgeInsets.zero,
+                  title: const Text('Ver detalles técnicos'),
+                  children: [
+                    _MetricRow(label: 'Percentil', value: product.percentile?.toStringAsFixed(0) ?? '—'),
+                    _MetricRow(label: 'Arriba del mínimo', value: formatPercent(product.distanceFromLow)),
+                    _MetricRow(label: 'Debajo del máximo', value: formatPercent(product.distanceFromHigh)),
+                    _MetricRow(label: 'Z-score', value: product.zscore?.toStringAsFixed(2) ?? '—'),
+                    _MetricRow(label: 'RSI (14)', value: product.rsi14?.toStringAsFixed(0) ?? '—'),
+                    _MetricRow(label: 'Media 50d', value: formatUsd(product.ma50Usd)),
+                    _MetricRow(label: 'Media 200d', value: formatUsd(product.ma200Usd)),
+                  ],
+                ),
               ],
             ),
           ),

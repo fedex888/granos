@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../core/format.dart';
+import '../../core/labels.dart';
 import '../../core/theme.dart';
 import '../../data/models.dart';
 import '../../domain/providers.dart';
@@ -74,6 +75,10 @@ class HomeScreen extends ConsumerWidget {
                 ),
               ],
             ),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 2, 16, 6),
+            child: Text(scoreHint(mode), style: theme.textTheme.bodySmall),
           ),
           if (status != null && _isStale(status.lastRunAt))
             Container(
@@ -161,67 +166,73 @@ class _ProductCard extends StatelessWidget {
         onTap: () => context.go('/product/${product.id}'),
         child: Padding(
           padding: const EdgeInsets.all(16),
-          child: Row(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(product.name, style: theme.textTheme.titleLarge),
-                    const SizedBox(height: 4),
-                    Text(formatArs(product.priceArs),
-                        style: theme.textTheme.headlineMedium),
-                    Text(
-                      '${formatUsd(product.priceUsd)}  ·  '
-                      '${formatDate(product.priceDate ?? '')}',
-                      style: theme.textTheme.bodySmall,
-                    ),
-                    if (product.quality == 'estimated')
-                      const Text('(estimado)', style: TextStyle(fontSize: 13)),
-                  ],
-                ),
-              ),
-              const SizedBox(width: 12),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.end,
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('$score', style: theme.textTheme.headlineMedium),
-                  Text('score', style: theme.textTheme.bodySmall),
-                  const SizedBox(height: 6),
-                  Container(
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                    decoration: BoxDecoration(
-                      color: color,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Text(
-                      _signalLabel(signal),
-                      style: const TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.bold),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(product.name, style: theme.textTheme.titleLarge),
+                        const SizedBox(height: 4),
+                        Text(formatArs(product.priceArs),
+                            style: theme.textTheme.headlineMedium),
+                        Text(
+                          '${formatUsd(product.priceUsd)}  ·  '
+                          '${formatDate(product.priceDate ?? '')}'
+                          '${product.quality == 'estimated' ? '  ·  estimado' : ''}',
+                          style: theme.textTheme.bodySmall,
+                        ),
+                      ],
                     ),
                   ),
+                  const SizedBox(width: 12),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text('$score/100', style: theme.textTheme.titleLarge),
+                      Text('puntaje', style: theme.textTheme.bodySmall),
+                      const SizedBox(height: 6),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: color,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          actionWord(signal, mode),
+                          style: const TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
+              ),
+              const SizedBox(height: 10),
+              Text(
+                recommendation(signal, mode),
+                style: theme.textTheme.bodyMedium
+                    ?.copyWith(color: color, fontWeight: FontWeight.w600),
+              ),
+              const SizedBox(height: 8),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(4),
+                child: LinearProgressIndicator(
+                  value: score / 100,
+                  minHeight: 6,
+                  color: color,
+                  backgroundColor: color.withValues(alpha: 0.15),
+                ),
               ),
             ],
           ),
         ),
       ),
     );
-  }
-
-  String _signalLabel(String signal) {
-    switch (signal) {
-      case 'strong':
-        return 'Fuerte';
-      case 'buy':
-        return 'Comprar';
-      case 'sell':
-        return 'Vender';
-      case 'watch':
-        return 'Mirar';
-      default:
-        return 'Sin señal';
-    }
   }
 }
