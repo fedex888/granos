@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-15T23:51:18-03:00",
+  "window": {
+    "start": "2024-11-15",
+    "end": "2026-11-15",
+    "days": 730
+  },
+  "sources": {
+    "FX": {
+      "ok": true,
+      "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
+      "rows_total": 5797,
+      "rows_window": 731,
+      "first_window": "2024-11-15",
+      "last_date": "2026-11-15",
+      "last_compra": 1520,
+      "rows_future_excluded": 1,
+      "tc_bna_bcr": 1536.5,
+      "offset_vs_bcr_pct": -1.074
+    },
+    "BCR": {
+      "ok": true,
+      "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
+      "export_node": 987,
+      "page_date": "2026-11-12",
+      "tc_bna": {
+        "date": "2026-11-12",
+        "value": 1536.5
+      },
+      "products": {
+        "trigo": {
+          "name": "Trigo",
+          "price_ars": 288900.0,
+          "quality": "operated",
+          "raw": "$288.900,00"
+        },
+        "maiz": {
+          "name": "Maíz",
+          "price_ars": 275800.0,
+          "quality": "operated",
+          "raw": "$275.800,00"
+        },
+        "girasol": {
+          "name": "Girasol",
+          "price_ars": 752885.0,
+          "quality": "estimated",
+          "raw": "S/C (E) $752.885,00"
+        },
+        "soja": {
+          "name": "Soja",
+          "price_ars": 540000.0,
+          "quality": "operated",
+          "raw": "$540.000,00"
+        },
+        "sorgo": {
+          "name": "Sorgo",
+          "price_ars": 276570.0,
+          "quality": "estimated",
+          "raw": "S/C (E) $276.570,00"
+        }
+      },
+      "published_at": "13 de Noviembre del 2026 10:20"
+    },
+    "MAGyP": {
+      "ok": true,
+      "url": "https://www.magyp.gob.ar/sitio/areas/ss_mercados_agropecuarios/areas/granos/_archivos/000056_Precios%20Locales/000020_Precios%20C%C3%A1mara%20-%20Diario/000001_Cotizaciones%20de%20Pizarra%20sobre%20Puerto%20-%20Precios%20C%C3%A1maras.php?accion=imp",
+      "date": "2026-11-12",
+      "headers": [
+        "PRODUCTO",
+        "BUENOS AIRES",
+        "BAHIA BLANCA",
+        "QUEQUEN",
+        "ROSARIO",
+        "CORDOBA"
+      ],
+      "prices": {
+        "girasol": {
+          "raw": "0.00",
+          "value": 0.0
+        },
+        "trigo pan": {
+          "raw": "288,900.00",
+          "value": 288900.0
+        },
+        "maiz": {
+          "raw": "275,800.00",
+          "value": 275800.0
+        },
+        "soja": {
+          "raw": "540,000.00",
+          "value": 540000.0
+        },
+        "sorgo": {
+          "raw": "0.00",
+          "value": 0.0
+        },
+        "cebada forrajera": {
+          "raw": "0.00",
+          "value": 0.0
+        }
+      }
+    }
+  },
+  "products": {
+    "trigo": {
+      "name": "Trigo pan",
+      "bcr_id": 8,
+      "bcr_type": "pizarra",
+      "rows": 481,
+      "rows_with_price": 474,
+      "rows_no_quote": 7,
+      "rows_estimated": 0,
+      "rows_operated": 474,
+      "duplicate_dates": 0,
+      "max_gap_days_operated": 6,
+      "median_gap_days_operated": 1,
+      "outliers_gt_50pct": 0,
+      "first_date": "2024-11-15",
+      "last_date": "2026-11-12",
+      "last_operated_date": "2026-11-12",
+      "last_price_ars": 288900.0,
+      "last_quality": "operated",
+      "min_price_ars": 183000.0,
+      "max_price_ars": 357714.0,
+      "last_fx_usd_ars": 1520,
+      "last_fx_date": "2026-11-12",
+      "last_price_usd": 190.07,
+      "bcr_own_usd": 188.02,
+      "fx_offset_vs_bcr_pct": 1.088
+    },
+    "maiz": {
+      "name": "Maíz",
+      "bcr_id": 3,
+      "bcr_type": "pizarra",
+      "rows": 481,
+      "rows_with_price": 469,
+      "rows_no_quote": 12,
+      "rows_estimated": 0,
+      "rows_operated": 469,
+      "duplicate_dates": 0,
+      "max_gap_days_operated": 5,
+      "median_gap_days_operated": 1,
+      "outliers_gt_50pct": 0,
+      "first_date": "2024-11-15",
+      "last_date": "2026-11-12",
+      "last_operated_date": "2026-11-12",
+      "last_price_ars": 275800.0,
+      "last_quality": "operated",
+      "min_price_ars": 180000.0,
+      "max_price_ars": 299000.0,
+      "last_fx_usd_ars": 1520,
+      "last_fx_date": "2026-11-12",
+      "last_price_usd": 181.45,
+      "bcr_own_usd": 179.5,
+      "fx_offset_vs_bcr_pct": 1.087
+    },
+    "girasol": {
+      "name": "Girasol",
+      "bcr_id": 9,
+      "bcr_type": "any",
+      "rows": 481,
+      "rows_with_price": 480,
+      "rows_no_quote": 1,
+      "rows_estimated": 285,
+      "rows_operated": 195,
+      "duplicate_dates": 0,
+      "max_gap_days_operated": 73,
+      "median_gap_days_operated": 1,
+      "outliers_gt_50pct": 0,
+      "first_date": "2024-11-15",
+      "last_date": "2026-11-12",
+      "last_operated_date": "2026-10-13",
+      "last_price_ars": 752885.0,
+      "last_quality": "estimated",
+      "min_price_ars": 320000.0,
+      "max_price_ars": 812490.0,
+      "last_fx_usd_ars": 1520,
+      "last_fx_date": "2026-11-12",
+      "last_price_usd": 495.32,
+      "bcr_own_usd": 490.0,
+      "fx_offset_vs_bcr_pct": 1.086
+    },
+    "soja": {
+      "name": "Soja",
+      "bcr_id": 13,
+      "bcr_type": "pizarra",
+      "rows": 481,
+      "rows_with_price": 472,
+      "rows_no_quote": 9,
+      "rows_estimated": 0,
+      "rows_operated": 472,
+      "duplicate_dates": 0,
+      "max_gap_days_operated": 5,
+      "median_gap_days_operated": 1,
+      "outliers_gt_50pct": 0,
+      "first_date": "2024-11-15",
+      "last_date": "2026-11-12",
+      "last_operated_date": "2026-11-12",
+      "last_price_ars": 540000.0,
+      "last_quality": "operated",
+      "min_price_ars": 280000.0,
+      "max_price_ars": 565000.0,
+      "last_fx_usd_ars": 1520,
+      "last_fx_date": "2026-11-12",
+      "last_price_usd": 355.26,
+      "bcr_own_usd": 351.45,
+      "fx_offset_vs_bcr_pct": 1.085
+    }
+  },
+  "checks": [
+    {
+      "name": "FX: serie disponible",
+      "ok": true,
+      "detail": "731 filas en la ventana"
+    },
+    {
+      "name": "FX: sin valores nulos o cero en la ventana",
+      "ok": true,
+      "detail": "0 filas inválidas"
+    },
+    {
+      "name": "BCR trigo: >= 250 observaciones",
+      "ok": true,
+      "detail": "474 precios en 481 filas"
+    },
+    {
+      "name": "BCR trigo: sin fechas duplicadas",
+      "ok": true,
+      "detail": "0 duplicados"
+    },
+    {
+      "name": "BCR trigo: cubre 2 años",
+      "ok": true,
+      "detail": "primer dato 2024-11-15"
+    },
+    {
+      "name": "BCR maiz: >= 250 observaciones",
+      "ok": true,
+      "detail": "469 precios en 481 filas"
+    },
+    {
+      "name": "BCR maiz: sin fechas duplicadas",
+      "ok": true,
+      "detail": "0 duplicados"
+    },
+    {
+      "name": "BCR maiz: cubre 2 años",
+      "ok": true,
+      "detail": "primer dato 2024-11-15"
+    },
+    {
+      "name": "BCR girasol: >= 250 observaciones",
+      "ok": true,
+      "detail": "480 precios en 481 filas"
+    },
+    {
+      "name": "BCR girasol: sin fechas duplicadas",
+      "ok": true,
+      "detail": "0 duplicados"
+    },
+    {
+      "name": "BCR girasol: cubre 2 años",
+      "ok": true,
+      "detail": "primer dato 2024-11-15"
+    },
+    {
+      "name": "BCR soja: >= 250 observaciones",
+      "ok": true,
+      "detail": "472 precios en 481 filas"
+    },
+    {
+      "name": "BCR soja: sin fechas duplicadas",
+      "ok": true,
+      "detail": "0 duplicados"
+    },
+    {
+      "name": "BCR soja: cubre 2 años",
+      "ok": true,
+      "detail": "primer dato 2024-11-15"
+    },
+    {
+      "name": "BCR actual: 4 productos presentes",
+      "ok": true,
+      "detail": "girasol, maiz, soja, sorgo, trigo"
+    },
+    {
+      "name": "BCR actual: TC BNA parseado",
+      "ok": true,
+      "detail": "{\"date\": \"2026-11-12\", \"value\": 1536.5}"
+    },
+    {
+      "name": "BCR trigo: actual == último histórico",
+      "ok": true,
+      "detail": "actual=288900.0 hist=288900.0"
+    },
+    {
+      "name": "BCR maiz: actual == último histórico",
+      "ok": true,
+      "detail": "actual=275800.0 hist=275800.0"
+    },
+    {
+      "name": "BCR girasol: actual == último histórico",
+      "ok": true,
+      "detail": "actual=752885.0 hist=752885.0"
+    },
+    {
+      "name": "BCR soja: actual == último histórico",
+      "ok": true,
+      "detail": "actual=540000.0 hist=540000.0"
+    },
+    {
+      "name": "MAGyP: tabla y fecha parseadas",
+      "ok": true,
+      "detail": "fecha=2026-11-12, productos=6"
+    },
+    {
+      "name": "MAGyP trigo: coincide con BCR (Rosario)",
+      "ok": true,
+      "detail": "magyp=288900.0 bcr=288900.0"
+    },
+    {
+      "name": "MAGyP maiz: coincide con BCR (Rosario)",
+      "ok": true,
+      "detail": "magyp=275800.0 bcr=275800.0"
+    },
+    {
+      "name": "MAGyP soja: coincide con BCR (Rosario)",
+      "ok": true,
+      "detail": "magyp=540000.0 bcr=540000.0"
+    },
+    {
+      "name": "FX: diferencia con TC BNA de BCR < 2%",
+      "ok": true,
+      "detail": "ArgentinaDatos=1520 BCR=1536.5 (-1.07%)"
+    }
+  ],
+  "warnings": [
+    "girasol: solo 195 observaciones operadas; el umbral de 250 del plan solo se alcanza incluyendo 285 estimadas.",
+    "MAGyP sin cotización Rosario para girasol (girasol); no sirve como fallback ese día",
+    "trigo: USD calculado con ArgentinaDatos difiere +1.09% del US$ publicado por BCR (TC divisa 1536.5)",
+    "maiz: USD calculado con ArgentinaDatos difiere +1.09% del US$ publicado por BCR (TC divisa 1536.5)",
+    "girasol: USD calculado con ArgentinaDatos difiere +1.09% del US$ publicado por BCR (TC divisa 1536.5)",
+    "soja: USD calculado con ArgentinaDatos difiere +1.08% del US$ publicado por BCR (TC divisa 1536.5)",
+    "La serie ArgentinaDatos 'oficial compra' no es idéntica al 'dólar divisa BNA comprador' que usa BCR (-1.07%). Documentado en docs/data-sources.md."
+  ],
+  "ok": true
+}

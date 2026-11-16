@@ -1,0 +1,11 @@
+httpx
+pandas
+openpyxl
+beautifulsoup4
+lxml
+pydantic
+python-dateutil
+google-auth
+requests
+pytest
+tzdata
