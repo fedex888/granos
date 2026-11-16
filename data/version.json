@@ -1,7 +1,7 @@
-{
+﻿{
   "schema_version": 1,
-  "latest": "1.0.2",
-  "build": 3,
+  "latest": "1.0.3",
+  "build": 4,
   "url": "https://github.com/fedex888/granos/releases/latest/download/app-release.apk",
-  "notes": "Aviso de nueva versión dentro de la app."
+  "notes": "prueba temporal del aviso"
 }
