@@ -15,7 +15,7 @@
 | MAGyP — pizarra diaria sobre puerto | ✅ OK (parcial) | Control cruzado / fallback |
 | FX — ArgentinaDatos (BNA oficial) | ✅ OK con salvedad | Conversión ARS→USD |
 
-Los cuatro productos descargan 481 filas cada uno (una por día de la ventana).
+Los cuatro productos descargan 481 filas cada uno (días hábiles de la ventana).
 Trigo, maíz y soja tienen más de 460 precios operados. **Girasol no cumple el
 mínimo de 250 observaciones operadas** (ver limitaciones).
 
@@ -35,9 +35,10 @@ https://www.cac.bcr.com.ar/es/api/prices/987/export
 - Responde `200`, `Content-Type: application/vnd.ms-excel`, pero el archivo es **XLSX real**.
 - `Content-Disposition: attachment; filename=precios.xlsx`.
 - No requiere cookies, login ni navegador.
-- El **ID `987` no aparece en el HTML** de la página de consultas: se genera del lado
-  del cliente. No se puede "extraer del HTML" como sugiere el plan; debe quedar
-  configurable (`BCR_EXPORT_NODE`) y monitorearse. Verificado el 2026-11-15.
+- El **ID `987` no aparece en el HTML estático** de la página de consultas: la URL de
+  export se arma del lado del cliente. En la práctica debe quedar configurable
+  (`BCR_EXPORT_NODE`) y monitorearse; no alcanza con "extraerlo del HTML". Verificado
+  el 2026-11-15.
 
 ### IDs de producto
 

@@ -45,7 +45,7 @@ a nivel máquina. Cerrar y reabrir la terminal después de correr el script.
 powershell -ExecutionPolicy Bypass -File scripts\setup-dev-windows.ps1
 ```
 
-El script es idempotente: omite lo ya instalado. Para reinstalar Flutter:
+El script es idempotente: omite lo ya instalado. Para una máquina sin IDE:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts\setup-dev-windows.ps1 -SkipAndroidStudio
@@ -80,6 +80,17 @@ configuración). No hace falta para compilar por consola; si se va a editar desd
 IDE, abrirlo una vez e instalar los plugins **Flutter** y **Dart** en
 `Settings → Plugins`.
 
+## Compilación de prueba
+
+Para verificar el toolchain completo se generó un proyecto descartable en `%TEMP%`
+y se compiló con `flutter build apk --debug`: **OK** (≈11 min la primera vez,
+incluye la descarga del NDK 28.2.13676358 y de las dependencias de Gradle). El APK
+`app-debug.apk` se generó correctamente.
+
+> El primer build descarga automáticamente el **NDK** que pide el proyecto
+> (Flutter 3.50 usa `28.2.13676358`, ≈1 GB) y las dependencias de Gradle. Ya quedó
+> cacheado para la Fase 2.
+
 ## Validación de fuentes (resumen)
 
 Detalle completo, endpoints y formato en [data-sources.md](data-sources.md).
@@ -94,13 +105,20 @@ Detalle completo, endpoints y formato en [data-sources.md](data-sources.md).
 \* Calculado con FX ArgentinaDatos (compra 1.520,00 del 2026-11-15). BCR publica
 valores ≈1,09% menores porque usa dólar divisa BNA (1.536,50).
 
+### Datos de prueba
+
+Los crudos del 2026-11-15 quedaron como fixtures versionados en
+`pipeline/tests/fixtures/` (ver su `README.md`): XLSX de los 4 productos, HTML de
+BCR y MAGyP, y una muestra de 60 filas de FX. Sirven para los tests de parseo de la
+Fase 1 sin volver a golpear las fuentes.
+
 ### Hallazgos que afectan la Fase 1
 
 1. **Girasol no alcanza el mínimo de 250 observaciones operadas** (195 operados,
    285 estimados, brecha máxima de 73 días). Con la regla actual de "operado dentro
    de 5 días hábiles" nunca generaría alertas. Decisión D10 pendiente.
-2. **El nodo de export `987` de BCR no se puede extraer del HTML** (se genera del
-   lado del cliente). Queda configurable y validado por encabezados.
+2. **El nodo de export `987` de BCR no aparece en el HTML estático** (la URL se arma
+   del lado del cliente). Queda configurable y validado por encabezados.
 3. **La serie FX no es el mismo dólar que usa BCR** (-1,07%). Se documenta y se
    mantiene una única fuente por serie; el TC de BCR se guarda como control.
 4. **MAGyP no cubre girasol** el día validado (`0.00`) y no ofrece serie diaria

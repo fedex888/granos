@@ -31,6 +31,7 @@ proyecto/
 |---|---|
 | [docs/fase-0-entorno.md](docs/fase-0-entorno.md) | Reporte de Fase 0: entorno, checklist y pendientes |
 | [docs/data-sources.md](docs/data-sources.md) | Fuentes BCR/MAGyP/FX: endpoints, parseo y validación |
+| [docs/fase-0-validation.json](docs/fase-0-validation.json) | Reporte máquina de la validación de fuentes |
 | [docs/architecture.md](docs/architecture.md) | Arquitectura y decisiones técnicas |
 | [docs/signal-spec.md](docs/signal-spec.md) | Especificación de señales (se implementa en Fase 1) |
 | [docs/backtest.md](docs/backtest.md) | Plan de backtest (Fase 1) |

@@ -16,7 +16,7 @@ Registro de decisiones tomadas durante la preparación. Las decisiones marcadas
 | D9 | 2026-11-15 | `schema_version: 1` en todos los JSON | Aceptada | Requisito del plan |
 | D10 | 2026-11-15 | Girasol: incluir con `quality=estimated`; alertas solo si hay operado reciente | **Pendiente** | Solo 195 operados en 2 años (<250) y brecha máxima de 73 días; con la regla actual nunca alertaría |
 | D11 | 2026-11-15 | Zona horaria `America/Argentina/Buenos_Aires` | Aceptada | Requisito del plan; `tzdata` incluido para Windows |
-| D12 | 2026-11-15 | Repositorio Git local inicializado; remoto en GitHub pendiente | **Pendiente** | Requiere autenticación del usuario (`gh auth login` o token) |
+| D12 | 2026-11-15 | Repositorio Git local inicializado con commit inicial; remoto en GitHub pendiente | **Pendiente** | Requiere autenticación del usuario (`gh auth login` o token) |
 | D13 | 2026-11-15 | Proyecto Firebase y `google-services.json` | **Pendiente** | Requiere cuenta Google del usuario; se hace antes de Fase 3 |
 | D14 | 2026-11-15 | Precio local Chaco = Rosario ± flete, con override manual | Aceptada | No existe pizarra local oficial |
 | D15 | 2026-11-15 | `google-services.json` no se versiona | Aceptada | Se inyecta en CI desde un secreto; evita filtrar identificadores del proyecto |
