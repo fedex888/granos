@@ -1,26 +1,53 @@
 # App Flutter (Fase 2)
 
-Todavía no hay código de UI. Esta carpeta queda reservada para el proyecto Flutter
-que se crea al cerrar la Fase 1.
+App Android para ver oportunidades de compra/venta de granos.
 
-## Estructura prevista
+## Stack
+
+- Flutter 3.50 / Dart 3.14, `minSdk 26` (Android 8.0+).
+- `material_ui` (Material en Flutter 3.50), `flutter_riverpod`, `go_router`,
+  `dio`, `fl_chart`, `intl`, `shared_preferences`, `path_provider`,
+  `url_launcher`, `package_info_plus`.
+
+## Estructura
 
 ```text
-app/
-├── lib/
-│   ├── core/       # tema, configuración, utilidades
-│   ├── data/       # API, SQLite (Drift), repositorios
-│   ├── domain/     # modelos y reglas de presentación
-│   └── features/   # onboarding, home, detalle, alertas, ajustes
-├── android/
-└── pubspec.yaml
+lib/
+├── main.dart              # bootstrap (SharedPreferences + router)
+├── app.dart               # GoRouter y MaterialApp.router
+├── core/{format,theme}.dart
+├── data/{models,api,cache,settings}.dart
+├── domain/providers.dart  # Riverpod
+└── features/
+    ├── onboarding/
+    ├── home/
+    ├── detail/
+    ├── alerts/
+    └── settings/
 ```
 
-## Requisitos
+## Datos
 
-- Flutter 3.50.0 / Dart 3.14.0 (ver `docs/fase-0-entorno.md`).
-- Android SDK 36, JDK 17.
-- `minSdk 26` (Android 8.0).
+Consume los JSON públicos del repo (`raw.githubusercontent.com/fedex888/granos/main/data/`):
 
-No crear `google-services.json` en el repo: se inyecta desde un secreto de CI
-(ver `docs/decisiones.md` D15).
+- `latest.json` → Home y Detalle.
+- `history/{id}.json` → gráfico del detalle.
+- `alerts/latest.json` → pantalla de alertas.
+
+Offline-first: cada respuesta se cachea en disco (path_provider); si la red falla,
+se muestra la última copia cacheada. Ajustes en `shared_preferences`.
+
+## Compilar
+
+```powershell
+flutter build apk --debug   # entregable de Fase 2
+flutter build apk --release # Fase 4 (firmada)
+```
+
+## Notas
+
+- Las notificaciones push (FCM) son Fase 3: esta app todavía no las incluye.
+- `google-services.json` no se versiona (se inyecta en CI); está en
+  `android/app/` localmente.
+- El cache es por archivos JSON + `shared_preferences` en lugar de Drift/SQLite
+  (ver `docs/decisiones.md` D16).

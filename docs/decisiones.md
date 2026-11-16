@@ -20,6 +20,8 @@ Registro de decisiones tomadas durante la preparación. Las decisiones marcadas
 | D13 | 2026-11-16 | Proyecto Firebase `granos-oportunidades` + app Android `com.fedex888.granos` | Aceptada | Proyecto y app creados; `google-services.json` descargado |
 | D14 | 2026-11-15 | Precio local Chaco = Rosario ± flete, con override manual | Aceptada | No existe pizarra local oficial |
 | D15 | 2026-11-15 | `google-services.json` no se versiona | Aceptada | Guardado en `app/android/app/` (ignorado por Git); en CI se inyecta desde un secreto |
+| D16 | 2026-11-16 | Cache de la app por archivos JSON + `shared_preferences` (no Drift/SQLite) | Aceptada | Menor riesgo de build para un usuario único; se mantiene offline-first |
+| D17 | 2026-11-16 | UI con `package:material_ui` (Material extraído de `flutter/material` en Flutter 3.50) | Aceptada | API idéntica; `flutter/material.dart` quedó deprecado en 3.50 |
 
 ## Detalle
 
@@ -59,3 +61,17 @@ Ejecutados el 2026-11-16:
 - **Firebase:** proyecto `granos-oportunidades` (nº 770713701053) y app Android
   `com.fedex888.granos` (app id `1:770713701053:android:dbae6d26565838b5f505d4`).
   `google-services.json` descargado y guardado en `app/android/app/` (no versionado).
+
+### D16 — Cache de la app
+
+El plan proponía Drift + SQLite. En Fase 2 se usó cache por **archivos JSON**
+(`path_provider`) + `shared_preferences` para ajustes. Motivo: menor superficie de
+build (sin codegen) para un MVP de un solo usuario, manteniendo el requisito de
+offline-first (cada endpoint se cachea y se sirve si la red falla). Si más adelante
+se necesita consulta local por SQL, se migra a Drift sin tocar la UI.
+
+### D17 — `material_ui`
+
+Flutter 3.50 extrajo el paquete Material de `flutter/material.dart` a
+`package:material_ui`. La API es la misma; se usa `material_ui` para no depender de
+un import deprecado.
