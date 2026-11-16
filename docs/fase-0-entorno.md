@@ -1,8 +1,8 @@
 # Fase 0 — Entorno y preparación
 
-**Fecha:** 2026-11-15  
-**Estado:** completa en lo local; quedan 2 pendientes externos que requieren
-credenciales del usuario (repositorio GitHub y proyecto Firebase).  
+**Fecha:** 2026-11-15 (cierre de credenciales: 2026-11-16)  
+**Estado:** completa. Repositorio GitHub y proyecto Firebase creados con las
+credenciales del usuario.  
 **Alcance:** estructura del repo, entorno de desarrollo y validación de fuentes.
 **Fuera de alcance:** UI, pipeline y alertas (Fases 1–3).
 
@@ -11,9 +11,9 @@ credenciales del usuario (repositorio GitHub y proyecto Firebase).
 | Ítem | Estado | Evidencia |
 |---|---|---|
 | Confirmar los 4 productos | ✅ | Maíz, soja, trigo pan y girasol validados en BCR |
-| Crear repo GitHub | ⏸️ Pendiente | Git local inicializado; falta remoto y autenticación |
-| Crear proyecto Firebase y app Android | ⏸️ Pendiente | Requiere cuenta Google; package ID propuesto |
-| Descargar `google-services.json` | ⏸️ Pendiente | Depende de Firebase; no se versiona |
+| Crear repo GitHub | ✅ | `https://github.com/fedex888/granos` (público, rama `main`) |
+| Crear proyecto Firebase y app Android | ✅ | Proyecto `granos-oportunidades`; app `com.fedex888.granos` |
+| Descargar `google-services.json` | ✅ | Guardado en `app/android/app/` (no versionado) |
 | Instalar Flutter + Android Studio + JDK 17 | ✅ | Ver tabla de entorno |
 | Correr `flutter doctor` | ✅ | Ver salida abajo |
 | Verificar export BCR de los 4 productos y 2 años | ✅ | 481 filas por producto; ver `data-sources.md` |
@@ -137,34 +137,17 @@ Ver [decisiones.md](decisiones.md). Resumen:
 - Package ID propuesto `com.fedex888.granos` (pendiente de confirmar).
 - `schema_version: 1` y fechas en `America/Argentina/Buenos_Aires`.
 
-## Pendientes que requieren credenciales
+## Credenciales y recursos externos (completados)
 
-### Repositorio GitHub
-
-No hay `gh` instalado ni sesión iniciada. Pasos sugeridos:
-
-```powershell
-winget install --id GitHub.cli --exact
-gh auth login
-gh repo create granos --private --source . --push
-```
-
-Alternativa: crear el repo vacío en <https://github.com/new> y luego:
-
-```powershell
-git remote add origin https://github.com/<usuario>/granos.git
-git branch -M main
-git push -u origin main
-```
-
-### Firebase
-
-1. Crear proyecto en <https://console.firebase.google.com/> (ej. `granos-oportunidades`).
-2. Agregar app Android con el package ID acordado (D4).
-3. Descargar `google-services.json` y ubicarlo en `app/android/app/` (no se versiona).
-4. Guardar el JSON de la cuenta de servicio como secreto `FIREBASE_SERVICE_ACCOUNT`
-   en GitHub Actions (solo Fase 3).
-5. Suscribir la app al topic `alertas-granos`.
+- **GitHub:** repo público <https://github.com/fedex888/granos>, rama `main`, con el
+  contenido de Fase 0 subido. El CLI `gh` quedó autenticado como `fedex888` con los
+  scopes `repo`, `workflow`, `read:org` y `gist`.
+- **Firebase:** proyecto `granos-oportunidades` (nº 770713701053) y app Android
+  `com.fedex888.granos` (app id `1:770713701053:android:dbae6d26565838b5f505d4`).
+  Google Analytics y la asistencia de IA quedaron desactivados.
+- **`google-services.json`:** descargado y guardado en `app/android/app/` (ignorado
+  por Git). Para CI se guardará como secreto `GOOGLE_SERVICES_JSON` en GitHub Actions
+  (Fase 3, junto con FCM).
 
 ## Cómo validar de nuevo
 
@@ -179,8 +162,10 @@ por girasol y por la brecha de FX. Los crudos quedan en `artifacts/fase0/`.
 
 ## Puerta para Fase 1
 
-Antes de implementar `signals.py` hay que resolver:
+Antes de implementar `signals.py` queda resolver:
 
 1. **D10**: política de girasol (recomendación: aceptar estimados y limitar a `watch`).
-2. **D4**: package ID definitivo (no bloquea el pipeline, pero sí Firebase).
-3. Confirmar que el repo remoto existe para que la Action pueda commitear `data/`.
+
+Lo demás ya está: package ID (`com.fedex888.granos`), repo remoto público y proyecto
+Firebase. La cuenta de servicio de FCM y su secreto (`FIREBASE_SERVICE_ACCOUNT`) se
+configuran en Fase 3, cuando se implementen las notificaciones.
