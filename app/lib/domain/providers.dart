@@ -1,4 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 import '../data/api.dart';
 import '../data/models.dart';
@@ -16,6 +17,12 @@ final latestProvider = FutureProvider<LatestData>(
 
 final statusProvider = FutureProvider<Status>(
     (ref) => ref.watch(apiProvider).fetchStatus());
+
+final versionProvider = FutureProvider<VersionInfo>(
+    (ref) => ref.watch(apiProvider).fetchVersion());
+
+final packageInfoProvider =
+    FutureProvider<PackageInfo>((ref) => PackageInfo.fromPlatform());
 
 final alertsProvider = FutureProvider<List<Alert>>(
     (ref) => ref.watch(apiProvider).fetchAlerts());

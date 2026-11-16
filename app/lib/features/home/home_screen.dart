@@ -1,10 +1,12 @@
 import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/format.dart';
 import '../../core/labels.dart';
 import '../../core/theme.dart';
+import '../../core/version.dart';
 import '../../data/models.dart';
 import '../../domain/providers.dart';
 
@@ -103,6 +105,7 @@ class HomeScreen extends ConsumerWidget {
                 ],
               ),
             ),
+          _UpdateBanner(),
           if (products.isEmpty)
             Padding(
               padding: const EdgeInsets.all(32),
@@ -232,6 +235,50 @@ class _ProductCard extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class _UpdateBanner extends ConsumerWidget {
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final version = ref.watch(versionProvider).asData?.value;
+    final info = ref.watch(packageInfoProvider).asData?.value;
+    if (version == null || info == null) return const SizedBox.shrink();
+    if (!isNewerVersion(version.latest, info.version)) {
+      return const SizedBox.shrink();
+    }
+
+    return Container(
+      margin: const EdgeInsets.fromLTRB(12, 4, 12, 4),
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Colors.blue.shade50,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Row(
+        children: [
+          const Icon(Icons.system_update, color: Colors.blue),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              'Nueva versión ${version.latest} disponible.',
+              style: const TextStyle(fontSize: 15),
+            ),
+          ),
+          TextButton(
+            onPressed: () async {
+              final url = version.url;
+              if (url == null) return;
+              final uri = Uri.tryParse(url);
+              if (uri != null) {
+                await launchUrl(uri, mode: LaunchMode.externalApplication);
+              }
+            },
+            child: const Text('Actualizar'),
+          ),
+        ],
       ),
     );
   }

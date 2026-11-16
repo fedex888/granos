@@ -222,3 +222,18 @@ class Status {
         staleProducts: ((j['stale_products'] as List?) ?? []).map((e) => e.toString()).toList(),
       );
 }
+
+class VersionInfo {
+  final String latest;
+  final int build;
+  final String? url;
+  final String? notes;
+  VersionInfo({required this.latest, this.build = 0, this.url, this.notes});
+
+  factory VersionInfo.fromJson(Map<String, dynamic> j) => VersionInfo(
+        latest: j['latest'] as String? ?? '0.0.0',
+        build: (j['build'] as num?)?.toInt() ?? 0,
+        url: j['url'] as String?,
+        notes: j['notes'] as String?,
+      );
+}

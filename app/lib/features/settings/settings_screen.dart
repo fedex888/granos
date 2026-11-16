@@ -2,7 +2,9 @@ import 'package:material_ui/material_ui.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
+import '../../core/version.dart';
 import '../../domain/providers.dart';
 
 class SettingsScreen extends ConsumerStatefulWidget {
@@ -149,6 +151,46 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               padding: const EdgeInsets.only(top: 8),
               child: Text('Versión $_version', style: theme.textTheme.bodySmall),
             ),
+          const _VersionCheck(),
+        ],
+      ),
+    );
+  }
+}
+
+class _VersionCheck extends ConsumerWidget {
+  const _VersionCheck();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final version = ref.watch(versionProvider).asData?.value;
+    final info = ref.watch(packageInfoProvider).asData?.value;
+    if (version == null || info == null) return const SizedBox.shrink();
+    if (!isNewerVersion(version.latest, info.version)) {
+      return const Padding(
+        padding: EdgeInsets.only(top: 8),
+        child: Text('Tenés la última versión.', style: TextStyle(fontSize: 15)),
+      );
+    }
+    return Padding(
+      padding: const EdgeInsets.only(top: 8),
+      child: Row(
+        children: [
+          Expanded(
+            child: Text('Nueva versión ${version.latest} disponible.',
+                style: const TextStyle(fontSize: 15)),
+          ),
+          TextButton(
+            onPressed: () async {
+              final url = version.url;
+              if (url == null) return;
+              final uri = Uri.tryParse(url);
+              if (uri != null) {
+                await launchUrl(uri, mode: LaunchMode.externalApplication);
+              }
+            },
+            child: const Text('Actualizar'),
+          ),
         ],
       ),
     );

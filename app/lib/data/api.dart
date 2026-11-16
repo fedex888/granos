@@ -39,6 +39,11 @@ class Api {
     return Status.fromJson(data);
   }
 
+  Future<VersionInfo> fetchVersion() async {
+    final data = await _getJson('version.json', 'version');
+    return VersionInfo.fromJson(data);
+  }
+
   Future<Map<String, dynamic>> _getJson(String path, String cacheKey) async {
     try {
       final resp = await _dio.get<String>(
