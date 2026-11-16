@@ -1,7 +1,8 @@
 # Notificaciones push (FCM) — Fase 3
 
-**Estado:** implementado en código y compilado. Falta la prueba en un dispositivo
-real y cargar la cuenta de servicio (credencial del usuario).
+**Estado:** implementado y compilado. Cuenta de servicio generada y cargada como
+secreto `FIREBASE_SERVICE_ACCOUNT`; envío de prueba verificado (`sent: 1`). Falta
+solo la prueba en un dispositivo real.
 
 ## Componentes
 
@@ -37,34 +38,25 @@ real y cargar la cuenta de servicio (credencial del usuario).
 - Si no hay credenciales, **no falla**: registra `skipped` en `status.json`.
 - Solo envía las alertas nuevas (después de cooldown/dedup y del tope de 3/día).
 
-## Configuración pendiente (requiere tus credenciales)
+## Configuración (completada)
 
-### 1. Cuenta de servicio
+### 1. Cuenta de servicio ✅
 
-En Firebase Console → ⚙️ **Configuración del proyecto** → **Cuentas de servicio**
-→ **Generar nueva clave privada**. Descargá el JSON.
+Generada en Firebase Console → ⚙️ **Configuración del proyecto** → **Cuentas de
+servicio** → **Generar nueva clave privada** (cuenta
+`firebase-adminsdk-fbsvc@granos-oportunidades.iam.gserviceaccount.com`).
 
-Opciones para usarla:
+- **GitHub Actions:** secreto `FIREBASE_SERVICE_ACCOUNT` cargado en
+  `fedex888/granos`. ✅
+- **Local:** `secrets/firebase-service-account.json` (gitignored). ✅
 
-- **GitHub Actions:** crear el secreto `FIREBASE_SERVICE_ACCOUNT` con el contenido
-  JSON:
-  ```powershell
-  gh secret set FIREBASE_SERVICE_ACCOUNT --repo fedex888/granos < ruta\service-account.json
-  ```
-- **Local:** guardarlo en `secrets/firebase-service-account.json` (gitignored) y
-  correr el pipeline sin variables de entorno.
-
-### 2. Probar el push
-
-Con la cuenta de servicio configurada:
+### 2. Envío de prueba ✅
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\send-test-push.py --product maiz --message "Prueba"
 ```
 
-Luego, en el teléfono con la app instalada y el permiso de notificaciones
-aceptado, debería llegar la notificación. Al tocarla, debe abrir el detalle de
-maíz.
+Resultado: `{'sent': 1, 'errors': []}` (FCM aceptó el mensaje para el topic).
 
 ### 3. Prueba desde la consola Firebase (alternativa)
 
@@ -81,6 +73,7 @@ Firebase Console → **Messaging** → **Enviar mensaje de prueba** → topic
 
 ## Pendiente de Fase 3
 
-- [ ] Generar la cuenta de servicio y cargar el secreto.
+- [x] Generar la cuenta de servicio y cargar el secreto.
+- [x] Verificar el envío de prueba desde el pipeline (`sent: 1`).
 - [ ] Probar en un dispositivo real: push recibido y tap → detalle.
 - [ ] Confirmar el comportamiento con la app en foreground, background y cerrada.

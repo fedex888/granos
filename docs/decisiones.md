@@ -22,6 +22,7 @@ Registro de decisiones tomadas durante la preparación. Las decisiones marcadas
 | D15 | 2026-11-15 | `google-services.json` no se versiona | Aceptada | Guardado en `app/android/app/` (ignorado por Git); en CI se inyecta desde un secreto |
 | D16 | 2026-11-16 | Cache de la app por archivos JSON + `shared_preferences` (no Drift/SQLite) | Aceptada | Menor riesgo de build para un usuario único; se mantiene offline-first |
 | D17 | 2026-11-16 | UI con `package:material_ui` (Material extraído de `flutter/material` en Flutter 3.50) | Aceptada | API idéntica; `flutter/material.dart` quedó deprecado en 3.50 |
+| D18 | 2026-11-16 | Push FCM con topic `alertas-granos`; cuenta de servicio como secreto | Aceptada | Sin tokens de dispositivos; envío HTTP v1 desde el pipeline |
 
 ## Detalle
 
