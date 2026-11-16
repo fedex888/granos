@@ -46,7 +46,9 @@ flutter build apk --release # Fase 4 (firmada)
 
 ## Notas
 
-- Las notificaciones push (FCM) son Fase 3: esta app todavía no las incluye.
+- Las notificaciones push (FCM) ya están integradas (`lib/data/push.dart`): topic
+  `alertas-granos`, permiso Android 13+, foreground con notificación local y tap
+  que abre el detalle. Ver `docs/fcm.md`.
 - `google-services.json` no se versiona (se inyecta en CI); está en
   `android/app/` localmente.
 - El cache es por archivos JSON + `shared_preferences` en lugar de Drift/SQLite

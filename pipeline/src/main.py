@@ -9,7 +9,7 @@ from pathlib import Path
 
 import httpx
 
-from . import alerts, publish
+from . import alerts, notify, publish
 from .config import (
     BCR_CURRENT_URL,
     DATA_DIR,
@@ -147,6 +147,16 @@ def run(start: dt.date, end: dt.date, today: dt.date, dry_run: bool, commit: boo
 
     # ---- Alertas ----
     new_alerts, alert_history = alerts.evaluate_alerts(products_latest, today)
+
+    # ---- Push (FCM) ----
+    if new_alerts and not dry_run:
+        push_result = notify.send_alerts(new_alerts)
+        if push_result.get("sent"):
+            status["warnings"].append(f"FCM: {push_result['sent']} enviadas")
+        elif push_result.get("skipped"):
+            status["warnings"].append(f"FCM: {push_result['skipped']}")
+        else:
+            status["warnings"].append(f"FCM: {push_result.get('error', push_result)}")
 
     status["products_updated"] = len(products_latest)
 

@@ -63,5 +63,6 @@ Configurado vía `pytest.ini` (raíz). Los tests usan los fixtures de
 
 ## Notas
 
-- El envío por FCM es Fase 3; `alerts.py` solo registra en `data/alerts/`.
-- `google-services.json` y la cuenta de servicio de FCM no están en el repo.
+- `notify.py` envía las alertas nuevas por FCM (HTTP v1) si hay credenciales; si no,
+  registra `skipped` en `status.json` sin fallar.
+- `google-services.json` y la cuenta de servicio de FCM no están en el repo (<code>secrets/</code>).

@@ -22,6 +22,7 @@ app/android/key.properties
 # Secretos y configuración de Firebase
 .env
 .env.*
+secrets/
 service-account*.json
 firebase-service-account.json
 app/android/app/google-services.json
