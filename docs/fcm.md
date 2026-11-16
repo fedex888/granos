@@ -1,8 +1,7 @@
 # Notificaciones push (FCM) — Fase 3
 
-**Estado:** implementado y compilado. Cuenta de servicio generada y cargada como
-secreto `FIREBASE_SERVICE_ACCOUNT`; envío de prueba verificado (`sent: 1`). Falta
-solo la prueba en un dispositivo real.
+**Estado:** completa y verificada en dispositivo (moto g31, Android 12): la push
+llega, se muestra la notificación y al tocarla abre el detalle del producto.
 
 ## Componentes
 
@@ -71,9 +70,18 @@ Firebase Console → **Messaging** → **Enviar mensaje de prueba** → topic
 - Para compilar la APK en CI (Fase 4) habrá que inyectar `google-services.json`
   desde un secreto (`GOOGLE_SERVICES_JSON`).
 
-## Pendiente de Fase 3
+## Verificación en dispositivo
 
 - [x] Generar la cuenta de servicio y cargar el secreto.
 - [x] Verificar el envío de prueba desde el pipeline (`sent: 1`).
-- [ ] Probar en un dispositivo real: push recibido y tap → detalle.
-- [ ] Confirmar el comportamiento con la app en foreground, background y cerrada.
+- [x] Probar en un dispositivo real (moto g31, Android 12): push recibida y tap → detalle.
+- [x] Foreground: notificación local con "Maíz · Comprar" (verificado en `dumpsys notification`).
+- [x] Background: tap en la notificación abrió `/product/maiz`.
+- [ ] App cerrada (terminated): usa el mismo camino vía `getInitialMessage`; no se
+  probó explícitamente.
+
+### Nota de rendimiento
+
+El primer arranque en frío tardó ~9,7 s porque la inicialización de Firebase/FCM
+se hace antes de `runApp`. En Fase 4 conviene diferirla al primer frame para que la
+UI aparezca antes.

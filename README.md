@@ -3,9 +3,9 @@
 App Android para detectar oportunidades de compra y venta de granos en Argentina,
 con precios de referencia de la Cámara Arbitral de Cereales de Rosario (BCR).
 
-**Estado actual: Fases 0–3 implementadas.** Entorno, pipeline, app Flutter MVP y
-notificaciones push (FCM) en código; falta la prueba de push en un dispositivo real
-y la cuenta de servicio. Queda Fase 4 (pulido y entrega).
+**Estado actual: Fases 0–3 completas y verificadas en un dispositivo real**
+(entorno, pipeline, app Flutter y notificaciones push FCM). Queda Fase 4 (pulido y
+entrega: revisión UX, APK release firmada, GitHub Release).
 
 - Productos MVP: **maíz, soja, trigo pan y girasol**.
 - Señal en **USD/t**; visualización en **ARS/t** con cotización BNA.
