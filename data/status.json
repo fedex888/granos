@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "last_run_at": "2026-11-18T23:58:00-03:00",
+  "last_run_at": "2026-11-19T18:58:48-03:00",
   "status": "ok",
   "sources": [
     {
       "name": "FX",
       "ok": true,
-      "rows": 5799,
+      "rows": 5800,
       "error": null
     },
     {
       "name": "BCR",
       "ok": true,
-      "rows": 1902,
+      "rows": 1906,
       "error": null
     },
     {
@@ -27,7 +27,7 @@
     "girasol"
   ],
   "warnings": [
-    "BCR TC BNA divisa 1543.0 (2026-11-17) vs FX 1525.0",
+    "BCR TC BNA divisa 1550.5 (2026-11-18) vs FX 1530.0",
     "girasol: sin operado reciente (quality=estimated)"
   ]
 }
