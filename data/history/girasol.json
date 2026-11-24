@@ -3842,6 +3842,14 @@
       "fx_usd_ars": 1530.0,
       "quality": "estimated",
       "source": "BCR"
+    },
+    {
+      "date": "2026-11-20",
+      "price_ars": 754080.0,
+      "price_usd": 491.26,
+      "fx_usd_ars": 1535.0,
+      "quality": "estimated",
+      "source": "BCR"
     }
   ]
 }
