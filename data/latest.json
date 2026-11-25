@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T20:23:40-03:00",
+  "generated_at": "2026-11-25T01:48:35-03:00",
   "fx": {
     "usd_ars": 1550.0,
     "date": "2026-11-24",
@@ -37,7 +37,7 @@
       "explanation": "Maíz: está 3.4% arriba del mínimo de 2 años (USD 170.20/t). El promedio de 2 años es USD 188.43/t. Score 78/100.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-24T20:23:40-03:00"
+      "updated_at": "2026-11-25T01:48:35-03:00"
     },
     {
       "id": "soja",
@@ -69,7 +69,7 @@
       "explanation": "Soja: está 4.1% debajo del máximo de 2 años (USD 379.80/t). Score 85/100.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-24T20:23:40-03:00"
+      "updated_at": "2026-11-25T01:48:35-03:00"
     },
     {
       "id": "trigo",
@@ -101,7 +101,7 @@
       "explanation": "Trigo pan: percentil 31. Mínimo de 2 años USD 163.23/t, máximo USD 240.88/t. Sin señal clara.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-24T20:23:40-03:00"
+      "updated_at": "2026-11-25T01:48:35-03:00"
     },
     {
       "id": "girasol",
@@ -133,7 +133,7 @@
       "explanation": "Dato desactualizado (última operación 2026-10-13). No se genera alerta hasta actualizar.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-24T20:23:40-03:00"
+      "updated_at": "2026-11-25T01:48:35-03:00"
     }
   ]
 }
