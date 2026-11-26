@@ -4,14 +4,6 @@
   "unit": "USD/t",
   "points": [
     {
-      "date": "2024-11-25",
-      "price_ars": 189000.0,
-      "price_usd": 191.49,
-      "fx_usd_ars": 987.0,
-      "quality": "operated",
-      "source": "BCR"
-    },
-    {
       "date": "2024-11-26",
       "price_ars": 190000.0,
       "price_usd": 192.41,

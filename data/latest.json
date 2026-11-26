@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T19:56:58-03:00",
+  "generated_at": "2026-11-26T00:59:19-03:00",
   "fx": {
     "usd_ars": 1565.0,
     "date": "2026-11-25",
@@ -23,7 +23,7 @@
       "high_2y_usd": 217.5,
       "high_2y_date": "2025-02-04",
       "avg_2y_usd": 188.41,
-      "percentile": 4.9,
+      "percentile": 4.91,
       "distance_from_low_pct": 3.27,
       "distance_from_high_pct": 23.74,
       "zscore": -1.3,
@@ -37,7 +37,7 @@
       "explanation": "Maíz: está 3.3% arriba del mínimo de 2 años (USD 170.20/t). El promedio de 2 años es USD 188.41/t. Score 79/100.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-25T19:56:58-03:00"
+      "updated_at": "2026-11-26T00:59:19-03:00"
     },
     {
       "id": "soja",
@@ -54,8 +54,8 @@
       "low_2y_date": "2025-04-30",
       "high_2y_usd": 379.8,
       "high_2y_date": "2026-09-02",
-      "avg_2y_usd": 323.58,
-      "percentile": 91.54,
+      "avg_2y_usd": 323.64,
+      "percentile": 91.53,
       "distance_from_low_pct": 44.56,
       "distance_from_high_pct": 3.28,
       "zscore": 1.44,
@@ -69,7 +69,7 @@
       "explanation": "Soja: está 3.3% debajo del máximo de 2 años (USD 379.80/t). Score 87/100.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-25T19:56:58-03:00"
+      "updated_at": "2026-11-26T00:59:19-03:00"
     },
     {
       "id": "trigo",
@@ -86,8 +86,8 @@
       "low_2y_date": "2025-11-26",
       "high_2y_usd": 240.88,
       "high_2y_date": "2026-08-28",
-      "avg_2y_usd": 202.4,
-      "percentile": 24.84,
+      "avg_2y_usd": 202.42,
+      "percentile": 24.89,
       "distance_from_low_pct": 15.82,
       "distance_from_high_pct": 27.41,
       "zscore": -0.83,
@@ -101,7 +101,7 @@
       "explanation": "Trigo pan: percentil 25. Mínimo de 2 años USD 163.23/t, máximo USD 240.88/t. Sin señal clara.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-25T19:56:58-03:00"
+      "updated_at": "2026-11-26T00:59:19-03:00"
     },
     {
       "id": "girasol",
@@ -118,11 +118,11 @@
       "low_2y_date": "2025-04-24",
       "high_2y_usd": 541.31,
       "high_2y_date": "2026-10-26",
-      "avg_2y_usd": 391.25,
-      "percentile": 84.82,
+      "avg_2y_usd": 391.29,
+      "percentile": 84.79,
       "distance_from_low_pct": 63.51,
       "distance_from_high_pct": 10.35,
-      "zscore": 1.52,
+      "zscore": 1.51,
       "rsi_14": 26.93,
       "ma_50_usd": 516.89,
       "ma_200_usd": 455.31,
@@ -133,7 +133,7 @@
       "explanation": "Dato desactualizado (última operación 2026-10-13). No se genera alerta hasta actualizar.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-25T19:56:58-03:00"
+      "updated_at": "2026-11-26T00:59:19-03:00"
     }
   ]
 }
