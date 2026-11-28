@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_at": "2026-11-27T19:30:29-03:00",
+  "last_run_at": "2026-11-28T00:45:53-03:00",
   "status": "ok",
   "sources": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "BCR",
       "ok": true,
-      "rows": 1902,
+      "rows": 1898,
       "error": null
     },
     {
@@ -28,6 +28,7 @@
   ],
   "warnings": [
     "BCR TC BNA divisa 1592.5 (2026-11-26) vs FX 1575.0",
-    "girasol: sin operado reciente (quality=estimated)"
+    "girasol: sin operado reciente (quality=estimated)",
+    "FCM: 1 enviadas"
   ]
 }

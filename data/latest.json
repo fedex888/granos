@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T19:30:29-03:00",
+  "generated_at": "2026-11-28T00:45:53-03:00",
   "fx": {
     "usd_ars": 1575.0,
     "date": "2026-11-27",
@@ -22,7 +22,7 @@
       "low_2y_date": "2025-07-08",
       "high_2y_usd": 217.5,
       "high_2y_date": "2025-02-04",
-      "avg_2y_usd": 188.36,
+      "avg_2y_usd": 188.37,
       "percentile": 1.07,
       "distance_from_low_pct": 0.67,
       "distance_from_high_pct": 26.93,
@@ -34,10 +34,10 @@
       "score_sell": 18,
       "signal_buy": "strong",
       "signal_sell": "none",
-      "explanation": "Maíz: está 0.7% arriba del mínimo de 2 años (USD 170.20/t). El promedio de 2 años es USD 188.36/t. Score 86/100.",
+      "explanation": "Maíz: está 0.7% arriba del mínimo de 2 años (USD 170.20/t). El promedio de 2 años es USD 188.37/t. Score 86/100.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-27T19:30:29-03:00"
+      "updated_at": "2026-11-28T00:45:53-03:00"
     },
     {
       "id": "soja",
@@ -54,8 +54,8 @@
       "low_2y_date": "2025-04-30",
       "high_2y_usd": 379.8,
       "high_2y_date": "2026-09-02",
-      "avg_2y_usd": 323.87,
-      "percentile": 89.64,
+      "avg_2y_usd": 323.93,
+      "percentile": 89.62,
       "distance_from_low_pct": 41.82,
       "distance_from_high_pct": 5.28,
       "zscore": 1.2,
@@ -69,7 +69,7 @@
       "explanation": "Soja: está 5.3% debajo del máximo de 2 años (USD 379.80/t). Score 81/100.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-27T19:30:29-03:00"
+      "updated_at": "2026-11-28T00:45:53-03:00"
     },
     {
       "id": "trigo",
@@ -86,8 +86,8 @@
       "low_2y_date": "2025-11-26",
       "high_2y_usd": 240.88,
       "high_2y_date": "2026-08-28",
-      "avg_2y_usd": 202.4,
-      "percentile": 24.21,
+      "avg_2y_usd": 202.41,
+      "percentile": 24.26,
       "distance_from_low_pct": 15.16,
       "distance_from_high_pct": 28.15,
       "zscore": -0.9,
@@ -101,7 +101,7 @@
       "explanation": "Trigo pan: percentil 24. Mínimo de 2 años USD 163.23/t, máximo USD 240.88/t. Sin señal clara.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-27T19:30:29-03:00"
+      "updated_at": "2026-11-28T00:45:53-03:00"
     },
     {
       "id": "girasol",
@@ -118,8 +118,8 @@
       "low_2y_date": "2025-04-24",
       "high_2y_usd": 541.31,
       "high_2y_date": "2026-10-26",
-      "avg_2y_usd": 391.73,
-      "percentile": 82.33,
+      "avg_2y_usd": 391.76,
+      "percentile": 82.29,
       "distance_from_low_pct": 57.91,
       "distance_from_high_pct": 14.27,
       "zscore": 1.25,
@@ -133,7 +133,7 @@
       "explanation": "Dato desactualizado (última operación 2026-10-13). No se genera alerta hasta actualizar.",
       "source": "BCR",
       "source_url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
-      "updated_at": "2026-11-27T19:30:29-03:00"
+      "updated_at": "2026-11-28T00:45:53-03:00"
     }
   ]
 }

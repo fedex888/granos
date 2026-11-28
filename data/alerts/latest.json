@@ -1,5 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T19:30:29-03:00",
-  "alerts": []
+  "generated_at": "2026-11-28T00:45:53-03:00",
+  "alerts": [
+    {
+      "id": "soja-sell-2026-11-28",
+      "product": "soja",
+      "direction": "sell",
+      "tier": "sell",
+      "price_usd": 360.76,
+      "price_ars": 570000.0,
+      "score": 81,
+      "message": "Soja: está 5.3% debajo del máximo de 2 años (USD 379.80/t). Score 81/100.",
+      "created_at": "2026-11-28T00:46:06-03:00"
+    }
+  ]
 }
